@@ -1,0 +1,53 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation, version 2.1 of the License.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, 
+* see "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html/".
+*
+* Description: 
+*
+*/
+
+#ifndef __QT_MOBILEEXTENSIONSEXAMPLES_IBY__
+#define __QT_MOBILEEXTENSIONSEXAMPLES_IBY__
+
+#include <bldvariant.hrh>
+
+#define UPGRADABLE_APP_REG_RSC(NAME) data=DATAZ_\PRIVATE\10003A3F\IMPORT\APPS\ ## NAME ## _reg.rsc        Private\10003a3f\import\apps\ ## NAME ## _reg.rsc
+
+S60_APP_EXE(SettingsManagerEx)
+S60_APP_RESOURCE(SettingsManagerEx)
+UPGRADABLE_APP_REG_RSC(SettingsManagerEx)
+
+S60_APP_EXE(SysInfoEx)
+S60_APP_RESOURCE(SysInfoEx)
+UPGRADABLE_APP_REG_RSC(SysInfoEx)
+
+S60_APP_EXE(UtilsEx)
+S60_APP_RESOURCE(UtilsEx)
+UPGRADABLE_APP_REG_RSC(UtilsEx)
+
+/* optional to add because of external library dependencies;
+S60_APP_EXE(KeyCaptureEx)
+S60_APP_RESOURCE(KeyCaptureEx)
+UPGRADABLE_APP_REG_RSC(KeyCaptureEx)
+*/
+
+/* optional 
+S60_APP_EXE(SystemToneServiceEx)
+S60_APP_RESOURCE(SystemToneServiceEx)
+UPGRADABLE_APP_REG_RSC(SystemToneServiceEx)
+*/
+
+#endif //__QT_MOBILEEXTENSIONSEXAMPLES_IBY__

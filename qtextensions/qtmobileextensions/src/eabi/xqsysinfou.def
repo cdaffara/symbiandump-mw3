@@ -1,0 +1,31 @@
+EXPORTS
+	_ZN9XQSysInfo11isSupportedEi @ 1 NONAME
+	_ZN9XQSysInfo11qt_metacallEN11QMetaObject4CallEiPPv @ 2 NONAME
+	_ZN9XQSysInfo11qt_metacastEPKc @ 3 NONAME
+	_ZN9XQSysInfo16staticMetaObjectE @ 4 NONAME DATA 16
+	_ZN9XQSysInfo19batteryLevelChangedEj @ 5 NONAME
+	_ZN9XQSysInfo19getStaticMetaObjectEv @ 6 NONAME
+	_ZN9XQSysInfo20networkSignalChangedEm @ 7 NONAME
+	_ZN9XQSysInfoC1EP7QObject @ 8 NONAME
+	_ZN9XQSysInfoC2EP7QObject @ 9 NONAME
+	_ZN9XQSysInfoD0Ev @ 10 NONAME
+	_ZN9XQSysInfoD1Ev @ 11 NONAME
+	_ZN9XQSysInfoD2Ev @ 12 NONAME
+	_ZNK9XQSysInfo10metaObjectEv @ 13 NONAME
+	_ZNK9XQSysInfo12batteryLevelEv @ 14 NONAME
+	_ZNK9XQSysInfo12manufacturerEv @ 15 NONAME
+	_ZNK9XQSysInfo14browserVersionEv @ 16 NONAME
+	_ZNK9XQSysInfo14signalStrengthEv @ 17 NONAME
+	_ZNK9XQSysInfo15currentLanguageEv @ 18 NONAME
+	_ZNK9XQSysInfo15softwareVersionEv @ 19 NONAME
+	_ZNK9XQSysInfo19isDiskSpaceCriticalENS_5DriveE @ 20 NONAME
+	_ZNK9XQSysInfo4imeiEv @ 21 NONAME
+	_ZNK9XQSysInfo4imsiEv @ 22 NONAME
+	_ZNK9XQSysInfo5errorEv @ 23 NONAME
+	_ZNK9XQSysInfo5modelEv @ 24 NONAME
+	_ZNK9XQSysInfo6memoryEv @ 25 NONAME
+	_ZNK9XQSysInfo9diskSpaceENS_5DriveE @ 26 NONAME
+	_ZNK9XQSysInfo9isNetworkEv @ 27 NONAME
+	_ZTI9XQSysInfo @ 28 NONAME
+	_ZTV9XQSysInfo @ 29 NONAME
+

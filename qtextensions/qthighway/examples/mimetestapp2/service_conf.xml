@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<service>
+  <name>mimetestapp2</name>
+  <filepath>No path</filepath>
+  <description>File viewer test app</description>
+  <interface>
+     <name>com.nokia.symbian.IFileView</name>
+     <version>1.0</version>
+     <description>Interface for showing files</description>
+   </interface>
+</service>

@@ -1,0 +1,14 @@
+
+
+
+;Languages
+&EN
+
+#{"CPix Search"},(0x2001F6FB),1,0,0, TYPE=SA
+
+; Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"S60ProductID"}
+
+; Vendor names
+%{"Nokia"}
+:"Nokia"

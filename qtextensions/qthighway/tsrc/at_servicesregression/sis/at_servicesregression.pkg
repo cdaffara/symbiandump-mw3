@@ -1,0 +1,37 @@
+; XQApplicationManager black box tests
+
+; Language
+&EN
+
+
+; SIS header: name, uid, version
+#{"at_services_regression"},(0xE7ca591c),1,0,0
+
+; Localised Vendor name
+%{"Nokia"}
+
+; Unique Vendor name
+:"Nokia"
+
+
+; Manual PKG pre-rules from PRO files
+; Default dependency to Qt libraries
+(0x2001E61C), 4, 6, 3, {"Qt"}
+; Default HW/platform dependencies
+[0x101F7961],0,0,0,{"S60ProductID"}
+[0x102032BE],0,0,0,{"S60ProductID"}
+[0x102752AE],0,0,0,{"S60ProductID"}
+[0x1028315F],0,0,0,{"S60ProductID"}
+ 
+
+; Executable and default resource files
+"/epoc32/release/armv5/urel/at_servicesregression.exe"    - "!:\sys\bin\at_servicesregression.exe"
+"/epoc32/data/z/resource/apps/at_servicesregression.rsc"    - "!:\resource\apps\at_servicesregression.rsc"
+"/epoc32/data/z/private/10003a3f/import/apps/at_servicesregression_reg.rsc"    - "!:\private\10003a3f\import\apps\at_servicesregression_reg.rsc"
+; DEPLOYMENT
+"/epoc32/data/z/data/Others/111-test1_v2.odf"    - "z:\data\Others\111-test1_v2.odf"
+"/epoc32/data/z/data/Others/one_v2.jpg"    - "z:\data\Others\one_v2.jpg"
+"/epoc32/data/z/data/Others/324kbps_MPEG4_352x288_AAC_15fps.3gp"    - ""z:\data\Others\324kbps_MPEG4_352x288_AAC_15fps.3gp"
+
+
+; Manual PKG post-rules from PRO files

@@ -1,0 +1,14 @@
+EXPORTS
+	_ZN19XQSystemToneService11toneStartedEv @ 1 NONAME
+	_ZN19XQSystemToneService12alarmStartedEj @ 2 NONAME
+	_ZN19XQSystemToneService13alarmFinishedEj @ 3 NONAME
+	_ZN19XQSystemToneService8playToneENS_8ToneTypeE @ 4 NONAME
+	_ZN19XQSystemToneService9playAlarmENS_9AlarmTypeERj @ 5 NONAME
+	_ZN19XQSystemToneService9stopAlarmEj @ 6 NONAME
+	_ZN19XQSystemToneServiceC1EP7QObject @ 7 NONAME
+	_ZN19XQSystemToneServiceC2EP7QObject @ 8 NONAME
+	_ZN19XQSystemToneServiceD0Ev @ 9 NONAME
+	_ZN19XQSystemToneServiceD1Ev @ 10 NONAME
+	_ZN19XQSystemToneServiceD2Ev @ 11 NONAME
+	_ZN19XQSystemToneService9playAlarmENS_8ToneTypeERj @ 12 NONAME
+

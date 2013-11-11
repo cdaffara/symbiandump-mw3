@@ -1,0 +1,58 @@
+/*
+* Copyright (c) 2002-2005 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Provisioning bld.inf
+*
+*/
+
+#include<bldvariant.hrh>
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+// Exported to Domain->Middleware Folder 
+
+
+#include "../help/group/bld.inf"
+
+#ifdef SYMBIAN_SECURE_DBMS
+    // The compiled DBMS policy file for context database
+    ../ProvisioningEngine/Data/101F84D6.SPD             z:/private/100012a5/policy/101f84d6.spd
+    // Using ProvisioningCX private data area for backup file.
+    ../ProvisioningEngine/Data/backup_registration.xml  /epoc32/data/z/private/101f8597/backup_registration.xml
+    ../ProvisioningEngine/Data/backup_registration.xml  /epoc32/release/winscw/udeb/z/private/101f8597/backup_registration.xml
+    ../ProvisioningEngine/Data/backup_registration.xml  /epoc32/release/winscw/urel/z/private/101f8597/backup_registration.xml
+#endif
+
+// Generic configuration interface for component cenrep settings  
+../conf/s60provisioning.confml                    MW_LAYER_CONFML(provisioning.confml)
+../conf/CI_s60provisioning.confml                    MW_LAYER_CONFML(CI_provisioning.confml)
+../conf/s60provisioning_101F87AA.crml 	        MW_LAYER_CRML(provisioning_101F87AA.crml)
+
+../Rom/Provisioning.iby										CORE_MW_LAYER_IBY_EXPORT_PATH(provisioning.iby)
+../Rom/ProvisioningResources.iby					LANGUAGE_MW_LAYER_IBY_EXPORT_PATH(provisioningresources.iby)
+../loc/Provisioning.loc									MW_LAYER_LOC_EXPORT_PATH(provisioning.loc)
+../loc/prov.rsc /epoc32/data/z/resource/messaging/bif/prov.rsc
+PRJ_EXTENSIONS
+
+PRJ_MMPFILES
+
+../ProvisioningEngine/Group/ProvisioningEngine.mmp
+../ProvisioningParser/Group/ProvisioningParser.mmp
+../ProvisioningHandler/Group/ProvisioningHandler.mmp
+
+PRJ_TESTMMPFILES
+
+//  End of File  

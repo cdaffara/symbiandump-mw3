@@ -1,0 +1,37 @@
+EXPORTS
+	_ZN9QtService17ServiceIPCRequest10clientInfoEv @ 1 NONAME
+	_ZN9QtService17ServiceIPCRequest10getSessionEv @ 2 NONAME
+	_ZN9QtService17ServiceIPCRequest12getOperationEv @ 3 NONAME
+	_ZN9QtService17ServiceIPCRequest13setClientInfoEPNS_10ClientInfoE @ 4 NONAME
+	_ZN9QtService17ServiceIPCRequest14addRequestdataERK10QByteArray @ 5 NONAME
+	_ZN9QtService17ServiceIPCRequest15completeRequestEv @ 6 NONAME
+	_ZN9QtService17ServiceIPCRequest5writeERK10QByteArray @ 7 NONAME
+	_ZN9QtService17ServiceIPCRequest7getDataEv @ 8 NONAME
+	_ZN9QtService17ServiceIPCRequestC1EPNS_17ServiceIPCSessionExRK7QString @ 9 NONAME
+	_ZN9QtService17ServiceIPCRequestC1ERS0_ @ 10 NONAME
+	_ZN9QtService17ServiceIPCRequestC2EPNS_17ServiceIPCSessionExRK7QString @ 11 NONAME
+	_ZN9QtService17ServiceIPCRequestC2ERS0_ @ 12 NONAME
+	_ZN9QtService17ServiceIPCRequestD0Ev @ 13 NONAME
+	_ZN9QtService17ServiceIPCRequestD1Ev @ 14 NONAME
+	_ZN9QtService17ServiceIPCRequestD2Ev @ 15 NONAME
+	_ZN9QtService17ServiceIPCRequestaSERS0_ @ 16 NONAME
+	_ZN9QtService18ServiceFwIPCServer10disconnectEv @ 17 NONAME
+	_ZN9QtService18ServiceFwIPCServer6listenERK7QString @ 18 NONAME
+	_ZN9QtService18ServiceFwIPCServerC1EPNS_19MServiceIPCObserverEP7QObjectNS_19TServiceIPCBackendsE @ 19 NONAME
+	_ZN9QtService18ServiceFwIPCServerC2EPNS_19MServiceIPCObserverEP7QObjectNS_19TServiceIPCBackendsE @ 20 NONAME
+	_ZN9QtService18ServiceFwIPCServerD0Ev @ 21 NONAME
+	_ZN9QtService18ServiceFwIPCServerD1Ev @ 22 NONAME
+	_ZN9QtService18ServiceFwIPCServerD2Ev @ 23 NONAME
+	_ZTIN9QtService17ServiceIPCRequestE @ 24 NONAME
+	_ZTIN9QtService18ServiceFwIPCServerE @ 25 NONAME
+	_ZTVN9QtService17ServiceIPCRequestE @ 26 NONAME
+	_ZTVN9QtService18ServiceFwIPCServerE @ 27 NONAME
+	_ZN9QtService17ServiceIPCRequest5setIdEi @ 28 NONAME
+	_ZN9QtService17ServiceIPCRequest8setAsyncEb @ 29 NONAME
+	_ZNK9QtService17ServiceIPCRequest2idEv @ 30 NONAME
+	_ZNK9QtService17ServiceIPCRequest7isAsyncEv @ 31 NONAME
+	_ZN9QtService17ServiceIPCRequest14setRequestInfoEP13XQRequestInfo @ 32 NONAME
+	_ZN9QtService17ServiceIPCRequest15addSharableFileEP14XQSharableFilei @ 33 NONAME
+	_ZNK9QtService17ServiceIPCRequest11requestInfoEv @ 34 NONAME
+	_ZNK9QtService17ServiceIPCRequest12sharableFileEi @ 35 NONAME
+

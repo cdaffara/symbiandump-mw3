@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE SystemDefinition SYSTEM "sysdef_1_5_1.dtd" [
+  <!ENTITY layer_real_source_path "sf/mw/qtextensions" >
+]>
+
+<SystemDefinition name="qtextensions" schema="1.5.1">
+	<systemModel>
+		<layer name="tools_layer">
+      <module name="qtextensionsconf">
+        <unit name="qtextensionsconf" unitID="qtextensions.qextensionsconf" mrp="" bldFile="&layer_real_source_path;/group"/>
+      </module>
+    </layer>
+  	<layer name="mw_layer">
+			<module name="qtextensions">
+				<unit name="qtextensions" unitID="qtextensions" bldFile="&layer_real_source_path;" mrp="" proFile="qtextensions.pro" qmakeArgs="-r"/>
+			</module>
+    </layer>
+    <layer name="app_layer">
+    	<module name="qtextensionsexamples">
+    		<unit name="qtecompluginsexamples" unitID="qtextensions.qtextensionsexamples.qtecompluginsexamples" bldFile="&layer_real_source_path;/qtecomplugins/examples" mrp="" proFile="examples.pro" qmakeArgs="-r" filter="qtextensionsexamples"/>
+      	<unit name="qthighwayexamples" unitID="qtextensions.qtextensionsexamples.qthighwayexamples" bldFile="&layer_real_source_path;/qthighway/examples" mrp="" proFile="examples.pro" qmakeArgs="-r" filter="qtextensionsexamples"/>
+      	<unit name="qtmobileextensionsexamples" unitID="qtextensions.qtmobileextensionsexamples.qtecompluginsexamples" bldFile="&layer_real_source_path;/qtmobileextensions/examples" mrp="" proFile="examples.pro" qmakeArgs="-r" filter="qtextensionsexamples"/>
+      </module>
+      <module name="qtextensionstests">
+      	<unit name="qthighwaytests" unitID="qtextensions.qtextensionstests.qthighwaytests" bldFile="&layer_real_source_path;/qthighway/tsrc" mrp="" proFile="tests.pro" qmakeArgs="-r" filter="qtextensionstests"/>
+      </module>
+    </layer>
+  </systemModel>
+</SystemDefinition>

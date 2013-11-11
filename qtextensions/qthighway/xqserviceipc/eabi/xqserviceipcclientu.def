@@ -1,0 +1,39 @@
+EXPORTS
+	_ZN9QtService12ServiceFwIPC10disconnectEv @ 1 NONAME
+	_ZN9QtService12ServiceFwIPC11qt_metacallEN11QMetaObject4CallEiPPv @ 2 NONAME
+	_ZN9QtService12ServiceFwIPC11qt_metacastEPKc @ 3 NONAME
+	_ZN9QtService12ServiceFwIPC11startServerERK7QStringS3_RyNS0_28ServiceIPCStartServerOptionsE @ 4 NONAME
+	_ZN9QtService12ServiceFwIPC11waitForReadEv @ 5 NONAME
+	_ZN9QtService12ServiceFwIPC14requestPendingEv @ 6 NONAME
+	_ZN9QtService12ServiceFwIPC16staticMetaObjectE @ 7 NONAME DATA 16
+	_ZN9QtService12ServiceFwIPC19getStaticMetaObjectEv @ 8 NONAME
+	_ZN9QtService12ServiceFwIPC4sendERK7QStringRK10QByteArray @ 9 NONAME ABSENT
+	_ZN9QtService12ServiceFwIPC5errorEi @ 10 NONAME
+	_ZN9QtService12ServiceFwIPC7connectERK7QString @ 11 NONAME
+	_ZN9QtService12ServiceFwIPC7readAllER10QByteArray @ 12 NONAME
+	_ZN9QtService12ServiceFwIPC7readAllEv @ 13 NONAME
+	_ZN9QtService12ServiceFwIPC8ReadDoneEv @ 14 NONAME
+	_ZN9QtService12ServiceFwIPC8sendSyncERK7QStringRK10QByteArray @ 15 NONAME
+	_ZN9QtService12ServiceFwIPC9readyReadEv @ 16 NONAME
+	_ZN9QtService12ServiceFwIPC9sendAsyncERK7QStringRK10QByteArray @ 17 NONAME
+	_ZN9QtService12ServiceFwIPCC1EP7QObjectNS_19TServiceIPCBackendsE @ 18 NONAME
+	_ZN9QtService12ServiceFwIPCC2EP7QObjectNS_19TServiceIPCBackendsE @ 19 NONAME
+	_ZN9QtService12ServiceFwIPCD0Ev @ 20 NONAME
+	_ZN9QtService12ServiceFwIPCD1Ev @ 21 NONAME
+	_ZN9QtService12ServiceFwIPCD2Ev @ 22 NONAME
+	_ZN9QtService19ServiceFwIPCFactory13createBackendENS_19TServiceIPCBackendsE @ 23 NONAME
+	_ZN9QtService19ServiceFwIPCFactory18isIPCTypeSupportedENS_19TServiceIPCBackendsE @ 24 NONAME
+	_ZN9QtService19ServiceFwIPCFactoryC1Ev @ 25 NONAME
+	_ZN9QtService19ServiceFwIPCFactoryC2Ev @ 26 NONAME
+	_ZN9QtService19ServiceFwIPCFactoryD0Ev @ 27 NONAME
+	_ZN9QtService19ServiceFwIPCFactoryD1Ev @ 28 NONAME
+	_ZN9QtService19ServiceFwIPCFactoryD2Ev @ 29 NONAME
+	_ZNK9QtService12ServiceFwIPC10metaObjectEv @ 30 NONAME
+	_ZNK9QtService14RApaIPCSession11SendReceiveEiR14TRequestStatus @ 31 NONAME
+	_ZNK9QtService18RServiceIPCSession11SendReceiveEiR14TRequestStatus @ 32 NONAME
+	_ZTIN9QtService12ServiceFwIPCE @ 33 NONAME
+	_ZTIN9QtService19ServiceFwIPCFactoryE @ 34 NONAME
+	_ZTVN9QtService12ServiceFwIPCE @ 35 NONAME
+	_ZTVN9QtService19ServiceFwIPCFactoryE @ 36 NONAME
+	_ZN9QtService12ServiceFwIPC11setUserDataEPKv @ 37 NONAME
+

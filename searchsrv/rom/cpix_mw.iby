@@ -1,0 +1,67 @@
+/*
+* ============================================================================
+*  Name     : cpix.iby
+*  Part of  : S605.0, PF52.50, ivalo
+*
+*  Description: Includes additional application IBYs for PF52.50/ivalo
+*       
+*  Version:
+*
+*  Copyright (C) 2002 Nokia Corporation.
+*  This material, including documentation and any related 
+*  computer programs, is protected by copyright controlled by 
+*  Nokia Corporation. All rights are reserved. Copying, 
+*  including reproducing, storing,  adapting or translating, any 
+*  or all of this material requires the prior written consent of 
+*  Nokia Corporation. This material also contains confidential 
+*  information which may not be disclosed to others without the 
+*  prior written consent of Nokia Corporation.
+*
+* ============================================================================
+*/
+
+#ifndef __CPIXENGINE_IBY__
+#define __CPIXENGINE_IBY__
+
+
+// CPiX Harvester Server
+
+#ifdef FF_SEARCH_SW
+
+file=ABI_DIR\BUILD_DIR\CPixHarvesterServer.exe	SHARED_LIB_DIR\CPixHarvesterServer.exe 
+file=ABI_DIR\BUILD_DIR\CPixHarvesterPluginInterface.dll	SHARED_LIB_DIR\CPixHarvesterPluginInterface.dll
+
+
+// CPiX Search Server
+
+file=ABI_DIR\BUILD_DIR\CPixSearchClient.dll	   SHARED_LIB_DIR\CPixSearchClient.dll
+file=ABI_DIR\BUILD_DIR\CPixSearchServer.exe	   SHARED_LIB_DIR\CPixSearchServer.exe 
+
+file=ABI_DIR\BUILD_DIR\cpixcontentinfodb.dll	SHARED_LIB_DIR\cpixcontentinfodb.dll
+// CPiX NP Plugin
+//ECOM_PLUGIN( npCPixPlugin.dll, npCPixPlugin.rsc)
+
+//file=ABI_DIR\BUILD_DIR\npCPixPlugin.dll  SHARED_LIB_DIR\npCPixPlugin.dll
+//data=DATAZ_\RESOURCE_FILES_DIR\plugins\npCPixPlugin.rsc RESOURCE_FILES_DIR\plugins\npCPixPlugin.rsc
+
+//CPIX QT
+file=ABI_DIR\BUILD_DIR\cpixsearch.dll	SHARED_LIB_DIR\cpixsearch.dll 
+
+//CPiX Watchdog
+file=ABI_DIR\BUILD_DIR\cpixwatchdog.exe	SHARED_LIB_DIR\cpixwatchdog.exe
+
+// Watchdog is started at boot time - copy resource file
+// must be hardcoded 'c' drive for this file
+
+data=DATAZ_\PRIVATE\101f875a\import\20029ab8.rsc  private\101f875a\import\20029ab8.rsc
+
+data=DATAZ_\resource\cpix\analyzer.loc           \resource\cpix\analyzer.loc
+data=DATAZ_\resource\cpix\thaidict.sm            \resource\cpix\thaidict.sm
+data=ZSYSTEM\install\cpixsearch_stub.sis    System\Install\cpixsearch_stub.sis
+
+data=DATAZ_\private\10202be9\2001f6fb.cre       private\10202be9\2001f6fb.cre
+data=DATAZ_\private\10202be9\20029AB8.txt       private\10202be9\20029AB8.txt
+
+#endif //FF_SEARCH_SW
+
+#endif // __CPIXENGINE_IBY__

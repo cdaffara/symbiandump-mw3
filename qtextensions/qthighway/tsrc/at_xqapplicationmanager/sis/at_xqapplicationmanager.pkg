@@ -1,0 +1,40 @@
+; XQApplicationManager black box tests
+
+; Language
+&EN
+
+
+; SIS header: name, uid, version
+#{"at_xqapplicationmanager"},(0xE7ca591c),1,0,0
+
+; Localised Vendor name
+%{"Nokia"}
+
+; Unique Vendor name
+:"Nokia"
+
+
+; Manual PKG pre-rules from PRO files
+; Default dependency to Qt libraries
+(0x2001E61C), 4, 6, 3, {"Qt"}
+; Default HW/platform dependencies
+[0x101F7961],0,0,0,{"S60ProductID"}
+[0x102032BE],0,0,0,{"S60ProductID"}
+[0x102752AE],0,0,0,{"S60ProductID"}
+[0x1028315F],0,0,0,{"S60ProductID"}
+ 
+
+; Executable and default resource files
+"/epoc32/release/armv5/urel/at_xqapplicationmanager.exe"    - "!:\sys\bin\at_xqapplicationmanager.exe"
+"/epoc32/data/z/resource/apps/at_xqapplicationmanager.rsc"    - "!:\resource\apps\at_xqapplicationmanager.rsc"
+"/epoc32/data/z/private/10003a3f/import/apps/at_xqapplicationmanager_reg.rsc"    - "!:\private\10003a3f\import\apps\at_xqapplicationmanager_reg.rsc"
+; DEPLOYMENT
+"/epoc32/data/z/data/Others/test.txt"    - "z:\data\Others\test.txt"
+"/epoc32/data/z/data/Others/111-test1.odf"    - "z:\data\Others\111-test1.odf"
+"/epoc32/data/z/data/Others/one.jpg"    - "z:\data\Others\one.jpg"
+"/epoc32/data/z/data/Others/RoAcqoffer-111-aac-i15m.ort"    - "z:\data\Others\RoAcqoffer-111-aac-i15m.ort"
+"/epoc32/data/z/data/Others/SD_Celebration_SP.dcf"    - "z:\data\Others\SD_Celebration_SP.dcf"
+"/epoc32/data/z/data/Others/SD_jpg_sun.dcf"    - "z:\data\Others\SD_jpg_sun.dcf"
+"/epoc32/data/z/data/Others/STC1_128_44_16_2_CBR.wma"    - "z:\data\Others\STC1_128_44_16_2_CBR.wma"
+
+; Manual PKG post-rules from PRO files

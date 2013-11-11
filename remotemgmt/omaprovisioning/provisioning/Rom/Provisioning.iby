@@ -1,0 +1,47 @@
+/*
+* Copyright (c) 2002-2006 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Image description file for the Provisioning
+*
+*/
+
+
+#ifndef __PROVISIONING_IBY__
+#define __PROVISIONING_IBY__
+
+data=DATAZ_\BIOFILE_DIR\prov.rsc                                  BIOFILE_DIR\prov.rsc
+// Engine
+file=ABI_DIR\BUILD_DIR\ProvisioningEngine.dll   SHARED_LIB_DIR\ProvisioningEngine.dll
+// Parser
+file=ABI_DIR\BUILD_DIR\ProvisioningParser.dll   SHARED_LIB_DIR\ProvisioningParser.dll
+// Handler
+ECOM_PLUGIN(ProvisioningHandler.dll,101F84D2.rsc)
+
+#ifdef SYMBIAN_SECURE_DBMS
+    data=ZPRIVATE\100012a5\policy\101F84D6.spd      PRIVATE\100012a5\policy\101F84D6.spd
+#endif // SYMBIAN_SECURE_DBMS
+
+#ifdef __SECURE_BACKUP__
+// Using ProvisioningCX private data area for backup file.
+data=ZPRIVATE\\101F8597\backup_registration.xml	    PRIVATE\101F8597\backup_registration.xml
+#endif //__SECURE_BACKUP__
+
+//Authentication type Plugin
+#ifdef FF_PROV_AUTHTYPE_PLUGIN
+ECOM_PLUGIN( Authtypeplugin.dll, 2001247C.rsc )
+SCALABLE_IMAGE( APP_BITMAP_DIR, APP_BITMAP_DIR, Authtypeplugin )
+#endif 
+
+//pnputilities
+file=ABI_DIR\BUILD_DIR\PnP.dll		                      		SHARED_LIB_DIR\PnP.dll
+#endif

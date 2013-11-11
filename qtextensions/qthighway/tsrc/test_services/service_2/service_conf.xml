@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<service>
+  <name>com.nokia.services.qthighway.test.service_2</name>
+  <filepath>No path</filepath>
+  <description>QtHighway automatic tests server 2</description>
+  <interface>
+    <name>interface_1</name>
+    <version>1.0</version>
+    <description>Interface 1</description>
+  </interface>
+  <interface>
+    <name>interface_2</name>
+    <version>1.0</version>
+    <description>Interface 2</description>
+  </interface>
+  <interface>
+    <name>com.nokia.symbian.IUriView</name>
+    <version>1.0</version>
+    <description>Interface for showing URIs</description>
+    <customproperty key="schemes">qhattestto</customproperty>
+  </interface>
+  <interface>
+	<name>com.nokia.symbian.IFileView</name>
+    <version>1.0</version>
+    <description>Interface for showing Files</description>
+  </interface>
+</service>

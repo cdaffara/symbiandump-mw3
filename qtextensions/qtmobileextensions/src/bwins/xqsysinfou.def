@@ -1,0 +1,31 @@
+EXPORTS
+	??1XQSysInfo@@UAE@XZ @ 1 NONAME ; XQSysInfo::~XQSysInfo(void)
+	?metaObject@XQSysInfo@@UBEPBUQMetaObject@@XZ @ 2 NONAME ; struct QMetaObject const * XQSysInfo::metaObject(void) const
+	?error@XQSysInfo@@QBE?AW4Error@1@XZ @ 3 NONAME ; enum XQSysInfo::Error XQSysInfo::error(void) const
+	?trUtf8@XQSysInfo@@SA?AVQString@@PBD0@Z @ 4 NONAME ; class QString XQSysInfo::trUtf8(char const *, char const *)
+	?batteryLevelChanged@XQSysInfo@@IAEXI@Z @ 5 NONAME ; void XQSysInfo::batteryLevelChanged(unsigned int)
+	?isSupported@XQSysInfo@@SA_NH@Z @ 6 NONAME ; bool XQSysInfo::isSupported(int)
+	?isDiskSpaceCritical@XQSysInfo@@QBE_NW4Drive@1@@Z @ 7 NONAME ; bool XQSysInfo::isDiskSpaceCritical(enum XQSysInfo::Drive) const
+	?imsi@XQSysInfo@@QBE?AVQString@@XZ @ 8 NONAME ; class QString XQSysInfo::imsi(void) const
+	?isNetwork@XQSysInfo@@QBE_NXZ @ 9 NONAME ; bool XQSysInfo::isNetwork(void) const
+	?tr@XQSysInfo@@SA?AVQString@@PBD0@Z @ 10 NONAME ; class QString XQSysInfo::tr(char const *, char const *)
+	?softwareVersion@XQSysInfo@@QBE?AVQString@@XZ @ 11 NONAME ; class QString XQSysInfo::softwareVersion(void) const
+	??0XQSysInfo@@QAE@PAVQObject@@@Z @ 12 NONAME ; XQSysInfo::XQSysInfo(class QObject *)
+	?currentLanguage@XQSysInfo@@QBE?AW4Language@1@XZ @ 13 NONAME ; enum XQSysInfo::Language XQSysInfo::currentLanguage(void) const
+	?diskSpace@XQSysInfo@@QBE_JW4Drive@1@@Z @ 14 NONAME ; long long XQSysInfo::diskSpace(enum XQSysInfo::Drive) const
+	?getStaticMetaObject@XQSysInfo@@SAABUQMetaObject@@XZ @ 15 NONAME ; struct QMetaObject const & XQSysInfo::getStaticMetaObject(void)
+	??_EXQSysInfo@@UAE@I@Z @ 16 NONAME ; XQSysInfo::~XQSysInfo(unsigned int)
+	?qt_metacall@XQSysInfo@@UAEHW4Call@QMetaObject@@HPAPAX@Z @ 17 NONAME ; int XQSysInfo::qt_metacall(enum QMetaObject::Call, int, void * *)
+	?trUtf8@XQSysInfo@@SA?AVQString@@PBD0H@Z @ 18 NONAME ; class QString XQSysInfo::trUtf8(char const *, char const *, int)
+	?model@XQSysInfo@@QBE?AVQString@@XZ @ 19 NONAME ; class QString XQSysInfo::model(void) const
+	?networkSignalChanged@XQSysInfo@@IAEXK@Z @ 20 NONAME ; void XQSysInfo::networkSignalChanged(unsigned long)
+	?manufacturer@XQSysInfo@@QBE?AVQString@@XZ @ 21 NONAME ; class QString XQSysInfo::manufacturer(void) const
+	?signalStrength@XQSysInfo@@QBEHXZ @ 22 NONAME ; int XQSysInfo::signalStrength(void) const
+	?imei@XQSysInfo@@QBE?AVQString@@XZ @ 23 NONAME ; class QString XQSysInfo::imei(void) const
+	?browserVersion@XQSysInfo@@QBE?AVQString@@XZ @ 24 NONAME ; class QString XQSysInfo::browserVersion(void) const
+	?qt_metacast@XQSysInfo@@UAEPAXPBD@Z @ 25 NONAME ; void * XQSysInfo::qt_metacast(char const *)
+	?memory@XQSysInfo@@QBEHXZ @ 26 NONAME ; int XQSysInfo::memory(void) const
+	?staticMetaObject@XQSysInfo@@2UQMetaObject@@B @ 27 NONAME ; struct QMetaObject const XQSysInfo::staticMetaObject
+	?tr@XQSysInfo@@SA?AVQString@@PBD0H@Z @ 28 NONAME ; class QString XQSysInfo::tr(char const *, char const *, int)
+	?batteryLevel@XQSysInfo@@QBEIXZ @ 29 NONAME ; unsigned int XQSysInfo::batteryLevel(void) const
+

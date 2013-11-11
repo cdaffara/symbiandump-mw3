@@ -1,0 +1,55 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation, version 2.1 of the License.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, 
+* see "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html/".
+*
+* Description: 
+*
+*/
+
+#ifndef __TSRC_IBY__
+#define __TSRC_IBY__
+
+#include <bldvariant.hrh>
+
+#define UPGRADABLE_APP_REG_RSC(NAME) data=DATAZ_\PRIVATE\10003A3F\IMPORT\APPS\ ## NAME ## _reg.rsc        Private\10003a3f\import\apps\ ## NAME ## _reg.rsc
+
+S60_APP_EXE(service_1)
+S60_APP_RESOURCE(service_1)
+UPGRADABLE_APP_REG_RSC(service_1)
+
+S60_APP_EXE(service_2)
+S60_APP_RESOURCE(service_2)
+UPGRADABLE_APP_REG_RSC(service_2)
+
+S60_APP_EXE(at_xqapplicationmanager)
+S60_APP_RESOURCE(at_xqapplicationmanager)
+UPGRADABLE_APP_REG_RSC(at_xqapplicationmanager)
+data=\epoc32\data\z\data\Others\test.txt data\Others\test.txt
+data=\epoc32\data\z\data\Others\111-test1.odf data\Others\111-test1.odf
+data=\epoc32\data\z\data\Others\one.jpg data\Others\one.jpg
+data=\epoc32\data\z\data\Others\RoAcqoffer-111-aac-i15m.ort data\Others\RoAcqoffer-111-aac-i15m.ort
+data=\epoc32\data\z\data\Others\SD_Celebration_SP.dcf data\Others\SD_Celebration_SP.dcf
+data=\epoc32\data\z\data\Others\SD_jpg_sun.dcf data\Others\SD_jpg_sun.dcf
+data=\epoc32\data\z\data\Others\STC1_128_44_16_2_CBR.wma data\Others\STC1_128_44_16_2_CBR.wma
+
+S60_APP_EXE(at_servicesregression)
+S60_APP_RESOURCE(at_servicesregression)
+UPGRADABLE_APP_REG_RSC(at_servicesregression)
+data=\epoc32\data\z\data\Others\one_v2.jpg data\Others\one_v2.jpg
+data=\epoc32\data\z\data\Others\324kbps_MPEG4_352x288_AAC_15fps.3gp data\Others\324kbps_MPEG4_352x288_AAC_15fps.3gp
+data=\epoc32\data\z\data\Others\111-test1_v2.odf data\Others\111-test1_v2.odf
+
+#endif

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<service>
+  <name>serviceapp</name>
+  <filepath>No path</filepath>
+  <description>Telephony service</description>
+  <interface>
+     <name>Dialer</name>
+     <version>1.0</version>
+     <description>Interface which may do something</description>
+     <customproperty key="aiw_status">0x00000001</customproperty>
+     <customproperty key="deprecatedsn">com.nokia.services.serviceapp</customproperty>
+   </interface>
+  <interface>
+     <name>com.nokia.symbian.IUriView</name>
+     <version>1.0</version>
+     <description>Interface for showing URIs</description>
+     <customproperty key="schemes">testto</customproperty>
+     <customproperty key="deprecatedsn">com.nokia.services.serviceapp</customproperty>
+  </interface>
+  <interface>
+     <name>com.nokia.symbian.IFileView</name>
+     <version>1.0</version>
+     <description>Interface for showing Files</description>
+     <customproperty key="deprecatedsn">com.nokia.services.serviceapp</customproperty>
+   </interface>
+  <interface>
+     <name>com.nokia.symbian.ITest1</name>
+     <version>1.0</version>
+     <description>Interface for testing</description>
+   </interface>
+  <interface>
+     <name>com.nokia.symbian.ITest2</name>
+     <version>1.0</version>
+     <description>Interface for testing</description>
+   </interface>
+  <interface>
+     <name>com.nokia.symbian.ITest3</name>
+     <version>1.0</version>
+     <description>Interface for testing</description>
+   </interface>
+  <interface>
+     <name>com.nokia.symbian.ITest4</name>
+     <version>1.0</version>
+     <description>Interface for testing</description>
+   </interface>
+  <interface>
+     <name>com.nokia.symbian.ITest5</name>
+     <version>1.0</version>
+     <description>Interface for testing</description>
+   </interface>
+  <interface>
+     <name>com.nokia.symbian.ITest6</name>
+     <version>1.0</version>
+     <description>Interface for testing</description>
+   </interface>
+</service>

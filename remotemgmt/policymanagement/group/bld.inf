@@ -1,0 +1,60 @@
+/*
+* Copyright (c) 2005 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: Implementation of policymanagement components
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+
+// Generic configuration interface for component cenrep settings  
+../conf/policy_management.confml                    MW_LAYER_CONFML(policy_management.confml)
+../conf/policy_management_10207815.crml 	        MW_LAYER_CRML(policy_management_10207815.crml)
+../conf/policy_management_10207816.crml 	        MW_LAYER_CRML(policy_management_10207816.crml)
+../conf/policy_management_10207843.crml 	        MW_LAYER_CRML(policy_management_10207843.crml)
+
+
+
+PRJ_EXTENSIONS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PRJ_MMPFILES
+
+
+
+
+
+
+#include "../pmdmadapter/group/bld.inf"
+#include "../dmutilserver/group/bld.inf"
+#include "../policyengine/group/bld.inf"

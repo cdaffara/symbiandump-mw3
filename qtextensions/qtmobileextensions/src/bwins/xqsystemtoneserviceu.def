@@ -1,0 +1,11 @@
+EXPORTS
+	?alarmStarted@XQSystemToneService@@IAEXI@Z @ 1 NONAME ; void XQSystemToneService::alarmStarted(unsigned int)
+	??1XQSystemToneService@@UAE@XZ @ 2 NONAME ; XQSystemToneService::~XQSystemToneService(void)
+	?playTone@XQSystemToneService@@QAEXW4ToneType@1@@Z @ 3 NONAME ; void XQSystemToneService::playTone(enum XQSystemToneService::ToneType)
+	?toneStarted@XQSystemToneService@@IAEXXZ @ 4 NONAME ; void XQSystemToneService::toneStarted(void)
+	?alarmFinished@XQSystemToneService@@IAEXI@Z @ 5 NONAME ; void XQSystemToneService::alarmFinished(unsigned int)
+	??0XQSystemToneService@@QAE@PAVQObject@@@Z @ 6 NONAME ; XQSystemToneService::XQSystemToneService(class QObject *)
+	?stopAlarm@XQSystemToneService@@QAEXI@Z @ 7 NONAME ; void XQSystemToneService::stopAlarm(unsigned int)
+	?playAlarm@XQSystemToneService@@QAEXW4AlarmType@1@AAI@Z @ 8 NONAME ; void XQSystemToneService::playAlarm(enum XQSystemToneService::AlarmType, unsigned int &)
+	?playAlarm@XQSystemToneService@@QAEXW4ToneType@1@AAI@Z @ 9 NONAME ; void XQSystemToneService::playAlarm(enum XQSystemToneService::ToneType, unsigned int &)
+

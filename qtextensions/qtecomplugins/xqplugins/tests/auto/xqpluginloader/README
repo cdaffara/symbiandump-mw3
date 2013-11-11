@@ -1,0 +1,3 @@
+Important note:
+
+To succesfully compile tests one need to have qttest_p4.prf file in your %qtdir%/mkspecs/features dir. If this file is not present already in qt sources, one should copy file that can be found directly in this directory.

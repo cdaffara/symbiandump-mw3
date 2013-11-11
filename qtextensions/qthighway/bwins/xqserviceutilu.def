@@ -1,0 +1,90 @@
+EXPORTS
+	??0XQServiceManager@@QAE@XZ @ 1 NONAME ; XQServiceManager::XQServiceManager(void)
+	?qt_metacall@XQServiceManager@@UAEHW4Call@QMetaObject@@HPAPAX@Z @ 2 NONAME ; int XQServiceManager::qt_metacall(enum QMetaObject::Call, int, void * *)
+	?minorVersion@XQAiwInterfaceDescriptor@@QBEHXZ @ 3 NONAME ; int XQAiwInterfaceDescriptor::minorVersion(void) const
+	?metaObject@XQServiceManager@@UBEPBUQMetaObject@@XZ @ 4 NONAME ; struct QMetaObject const * XQServiceManager::metaObject(void) const
+	??0XQAiwInterfaceDescriptor@@QAE@XZ @ 5 NONAME ; XQAiwInterfaceDescriptor::XQAiwInterfaceDescriptor(void)
+	??8XQAiwInterfaceDescriptor@@QBE_NABV0@@Z @ 6 NONAME ; bool XQAiwInterfaceDescriptor::operator==(class XQAiwInterfaceDescriptor const &) const
+	?tr@XQServiceManager@@SA?AVQString@@PBD0@Z @ 7 NONAME ; class QString XQServiceManager::tr(char const *, char const *)
+	??_EXQServiceManager@@UAE@I@Z @ 8 NONAME ; XQServiceManager::~XQServiceManager(unsigned int)
+	?getStaticMetaObject@XQServiceManager@@SAABUQMetaObject@@XZ @ 9 NONAME ; struct QMetaObject const & XQServiceManager::getStaticMetaObject(void)
+	?interfaceName@XQAiwInterfaceDescriptor@@QBE?AVQString@@XZ @ 10 NONAME ; class QString XQAiwInterfaceDescriptor::interfaceName(void) const
+	??9XQAiwInterfaceDescriptor@@QBE_NABV0@@Z @ 11 NONAME ; bool XQAiwInterfaceDescriptor::operator!=(class XQAiwInterfaceDescriptor const &) const
+	?staticMetaObject@XQServiceManager@@2UQMetaObject@@B @ 12 NONAME ; struct QMetaObject const XQServiceManager::staticMetaObject
+	?toBackground@XQServiceUtil@@YAX_N@Z @ 13 NONAME ; void XQServiceUtil::toBackground(bool)
+	?customProperty@XQAiwInterfaceDescriptor@@QBE?AVQString@@ABV2@@Z @ 14 NONAME ; class QString XQAiwInterfaceDescriptor::customProperty(class QString const &) const
+	?qt_metacast@XQServiceManager@@UAEPAXPBD@Z @ 15 NONAME ; void * XQServiceManager::qt_metacast(char const *)
+	?isValid@XQAiwInterfaceDescriptor@@QBE_NXZ @ 16 NONAME ; bool XQAiwInterfaceDescriptor::isValid(void) const
+	??6@YAAAVQDataStream@@AAV0@ABVXQAiwInterfaceDescriptor@@@Z @ 17 NONAME ; class QDataStream & operator<<(class QDataStream &, class XQAiwInterfaceDescriptor const &)
+	?property@XQAiwInterfaceDescriptor@@QBE?AVQVariant@@W4PropertyKey@1@@Z @ 18 NONAME ; class QVariant XQAiwInterfaceDescriptor::property(enum XQAiwInterfaceDescriptor::PropertyKey) const
+	?trUtf8@XQServiceManager@@SA?AVQString@@PBD0H@Z @ 19 NONAME ; class QString XQServiceManager::trUtf8(char const *, char const *, int)
+	?inSystemScope@XQAiwInterfaceDescriptor@@QBE_NXZ @ 20 NONAME ; bool XQAiwInterfaceDescriptor::inSystemScope(void) const
+	?startServer@XQServiceManager@@QAEHABVQString@@_NAAHAA_K@Z @ 21 NONAME ; int XQServiceManager::startServer(class QString const &, bool, int &, unsigned long long &)
+	?findInterfaces@XQServiceManager@@QBE?AV?$QList@VXQAiwInterfaceDescriptor@@@@ABVQString@@@Z @ 22 NONAME ; class QList<class XQAiwInterfaceDescriptor> XQServiceManager::findInterfaces(class QString const &) const
+	??1XQAiwInterfaceDescriptor@@QAE@XZ @ 23 NONAME ; XQAiwInterfaceDescriptor::~XQAiwInterfaceDescriptor(void)
+	??5@YAAAVQDataStream@@AAV0@AAVXQAiwInterfaceDescriptor@@@Z @ 24 NONAME ; class QDataStream & operator>>(class QDataStream &, class XQAiwInterfaceDescriptor &)
+	??4XQAiwInterfaceDescriptor@@QAEAAV0@ABV0@@Z @ 25 NONAME ; class XQAiwInterfaceDescriptor & XQAiwInterfaceDescriptor::operator=(class XQAiwInterfaceDescriptor const &)
+	??6@YA?AVQDebug@@V0@ABVXQAiwInterfaceDescriptor@@@Z @ 26 NONAME ; class QDebug operator<<(class QDebug, class XQAiwInterfaceDescriptor const &)
+	?trUtf8@XQServiceManager@@SA?AVQString@@PBD0@Z @ 27 NONAME ; class QString XQServiceManager::trUtf8(char const *, char const *)
+	?setProperty@XQAiwInterfaceDescriptor@@QAE_NW4PropertyKey@1@VQVariant@@@Z @ 28 NONAME ; bool XQAiwInterfaceDescriptor::setProperty(enum XQAiwInterfaceDescriptor::PropertyKey, class QVariant)
+	??1XQServiceManager@@UAE@XZ @ 29 NONAME ; XQServiceManager::~XQServiceManager(void)
+	?isEmbedded@XQServiceUtil@@YA_NXZ @ 30 NONAME ; bool XQServiceUtil::isEmbedded(void)
+	?tr@XQServiceManager@@SA?AVQString@@PBD0H@Z @ 31 NONAME ; class QString XQServiceManager::tr(char const *, char const *, int)
+	?majorVersion@XQAiwInterfaceDescriptor@@QBEHXZ @ 32 NONAME ; int XQAiwInterfaceDescriptor::majorVersion(void) const
+	?serviceName@XQAiwInterfaceDescriptor@@QBE?AVQString@@XZ @ 33 NONAME ; class QString XQAiwInterfaceDescriptor::serviceName(void) const
+	??0XQAiwInterfaceDescriptor@@QAE@ABV0@@Z @ 34 NONAME ; XQAiwInterfaceDescriptor::XQAiwInterfaceDescriptor(class XQAiwInterfaceDescriptor const &)
+	?findInterfaces@XQServiceManager@@QBE?AV?$QList@VXQAiwInterfaceDescriptor@@@@ABVQString@@0@Z @ 35 NONAME ; class QList<class XQAiwInterfaceDescriptor> XQServiceManager::findInterfaces(class QString const &, class QString const &) const
+	?customPropertyKeys@XQAiwInterfaceDescriptor@@QBE?AVQStringList@@XZ @ 36 NONAME ; class QStringList XQAiwInterfaceDescriptor::customPropertyKeys(void) const
+	?isService@XQServiceUtil@@YA_NXZ @ 37 NONAME ; bool XQServiceUtil::isService(void)
+	?startServer@XQServiceManager@@QAEHABVQString@@_NAAHAA_KPBX@Z @ 38 NONAME ; int XQServiceManager::startServer(class QString const &, bool, int &, unsigned long long &, void const *)
+	??_EXQRequestInfo@@UAE@I@Z @ 39 NONAME ; XQRequestInfo::~XQRequestInfo(unsigned int)
+	?setHandle@XQSharableFile@@QAE_NAAVRFile@@@Z @ 40 NONAME ; bool XQSharableFile::setHandle(class RFile &)
+	?clientVendorId@XQRequestInfo@@QBEIXZ @ 41 NONAME ; unsigned int XQRequestInfo::clientVendorId(void) const
+	??8XQSharableFile@@QAE_NABV0@@Z @ 42 NONAME ; bool XQSharableFile::operator==(class XQSharableFile const &)
+	?setEmbedded@XQRequestInfo@@QAEX_N@Z @ 43 NONAME ; void XQRequestInfo::setEmbedded(bool)
+	?getHandle@XQSharableFile@@QBE_NAAVRFile@@@Z @ 44 NONAME ; bool XQSharableFile::getHandle(class RFile &) const
+	?isValid@XQSharableFile@@QBE_NXZ @ 45 NONAME ; bool XQSharableFile::isValid(void) const
+	?infoKeys@XQRequestInfo@@QBE?AVQStringList@@XZ @ 46 NONAME ; class QStringList XQRequestInfo::infoKeys(void) const
+	??_EXQRequestUtil@@UAE@I@Z @ 47 NONAME ; XQRequestUtil::~XQRequestUtil(unsigned int)
+	??0XQSharableFile@@QAE@AAVRFile@@@Z @ 48 NONAME ; XQSharableFile::XQSharableFile(class RFile &)
+	?clientSecureId@XQRequestInfo@@QBEIXZ @ 49 NONAME ; unsigned int XQRequestInfo::clientSecureId(void) const
+	?setInfo@XQRequestInfo@@QAEXABVQString@@ABVQVariant@@@Z @ 50 NONAME ; void XQRequestInfo::setInfo(class QString const &, class QVariant const &)
+	??0XQRequestUtil@@QAE@XZ @ 51 NONAME ; XQRequestUtil::XQRequestUtil(void)
+	?open@XQSharableFile@@QAE_NABVQString@@@Z @ 52 NONAME ; bool XQSharableFile::open(class QString const &)
+	?getSharableFile@XQRequestUtil@@QBEPBVXQSharableFile@@H@Z @ 53 NONAME ; class XQSharableFile const * XQRequestUtil::getSharableFile(int) const
+	??0XQRequestInfo@@QAE@XZ @ 54 NONAME ; XQRequestInfo::XQRequestInfo(void)
+	??1XQRequestUtil@@UAE@XZ @ 55 NONAME ; XQRequestUtil::~XQRequestUtil(void)
+	??1XQSharableFile@@UAE@XZ @ 56 NONAME ; XQSharableFile::~XQSharableFile(void)
+	?fileName@XQSharableFile@@QBE?AVQString@@XZ @ 57 NONAME ; class QString XQSharableFile::fileName(void) const
+	??1XQRequestInfo@@UAE@XZ @ 58 NONAME ; XQRequestInfo::~XQRequestInfo(void)
+	??_EXQSharableFile@@UAE@I@Z @ 59 NONAME ; XQSharableFile::~XQSharableFile(unsigned int)
+	?setSecurityInfo@XQRequestUtil@@QAEXIII@Z @ 60 NONAME ; void XQRequestUtil::setSecurityInfo(unsigned int, unsigned int, unsigned int)
+	?isBackground@XQRequestInfo@@QBE_NXZ @ 61 NONAME ; bool XQRequestInfo::isBackground(void) const
+	?isValid@XQRequestInfo@@QBE_NXZ @ 62 NONAME ; bool XQRequestInfo::isValid(void) const
+	?setBackground@XQRequestInfo@@QAEX_N@Z @ 63 NONAME ; void XQRequestInfo::setBackground(bool)
+	?info@XQRequestInfo@@QBE?AVQVariant@@ABVQString@@@Z @ 64 NONAME ; class QVariant XQRequestInfo::info(class QString const &) const
+	?close@XQSharableFile@@QAEXXZ @ 65 NONAME ; void XQSharableFile::close(void)
+	?setSynchronous@XQRequestUtil@@QAEX_N@Z @ 66 NONAME ; void XQRequestUtil::setSynchronous(bool)
+	?clientCapabilities@XQRequestInfo@@QBE?AV?$QSet@H@@XZ @ 67 NONAME ; class QSet<int> XQRequestInfo::clientCapabilities(void) const
+	?isSynchronous@XQRequestInfo@@QBE_NXZ @ 68 NONAME ; bool XQRequestInfo::isSynchronous(void) const
+	?isEmbedded@XQRequestInfo@@QBE_NXZ @ 69 NONAME ; bool XQRequestInfo::isEmbedded(void) const
+	??0XQSharableFile@@QAE@XZ @ 70 NONAME ; XQSharableFile::XQSharableFile(void)
+	?latestError@XQServiceManager@@QBEHXZ @ 71 NONAME ; int XQServiceManager::latestError(void) const
+	?mapError@XQRequestUtil@@SAHH@Z @ 72 NONAME ; int XQRequestUtil::mapError(int)
+	?interfaceName@XQServiceUtil@@YA?AVQString@@XZ @ 73 NONAME ; class QString XQServiceUtil::interfaceName(void)
+	?operationName@XQServiceUtil@@YA?AVQString@@XZ @ 74 NONAME ; class QString XQServiceUtil::operationName(void)
+	?id@XQRequestInfo@@QBEHXZ @ 75 NONAME ; int XQRequestInfo::id(void) const
+	?isRunning@XQServiceManager@@QBE_NABVXQAiwInterfaceDescriptor@@@Z @ 76 NONAME ; bool XQServiceManager::isRunning(class XQAiwInterfaceDescriptor const &) const
+	?setForeground@XQRequestInfo@@QAEX_N@Z @ 77 NONAME ; void XQRequestInfo::setForeground(bool)
+	?isForeground@XQRequestInfo@@QBE_NXZ @ 78 NONAME ; bool XQRequestInfo::isForeground(void) const
+	?channelName@XQRequestUtil@@SA?AVQString@@ABV2@@Z @ 79 NONAME ; class QString XQRequestUtil::channelName(class QString const &)
+	?findFirstInterface@XQServiceManager@@QBE?AV?$QList@VXQAiwInterfaceDescriptor@@@@ABVQString@@@Z @ 80 NONAME ; class QList<class XQAiwInterfaceDescriptor> XQServiceManager::findFirstInterface(class QString const &) const
+	?findFirstInterface@XQServiceManager@@QBE?AV?$QList@VXQAiwInterfaceDescriptor@@@@ABVQString@@0@Z @ 81 NONAME ; class QList<class XQAiwInterfaceDescriptor> XQServiceManager::findFirstInterface(class QString const &, class QString const &) const
+	?operationName@XQServiceUtil@@YA?AVQString@@HPAPAD@Z @ 82 NONAME ; class QString XQServiceUtil::operationName(int, char * *)
+	?serviceName@XQServiceUtil@@YA?AVQString@@HPAPAD@Z @ 83 NONAME ; class QString XQServiceUtil::serviceName(int, char * *)
+	?serviceName@XQServiceUtil@@YA?AVQString@@XZ @ 84 NONAME ; class QString XQServiceUtil::serviceName(void)
+	?isEmbedded@XQServiceUtil@@YA_NHPAPAD@Z @ 85 NONAME ; bool XQServiceUtil::isEmbedded(int, char * *)
+	?isService@XQServiceUtil@@YA_NHPAPAD@Z @ 86 NONAME ; bool XQServiceUtil::isService(int, char * *)
+	?interfaceName@XQServiceUtil@@YA?AVQString@@HPAPAD@Z @ 87 NONAME ; class QString XQServiceUtil::interfaceName(int, char * *)
+	?serviceIdFromName@XQServiceUtil@@YAIPBD@Z @ 88 NONAME ; unsigned int XQServiceUtil::serviceIdFromName(char const *)
+	?closeWhenClientClosed@XQServiceUtils@@YAXXZ @ 89 NONAME ; void XQServiceUtils::closeWhenClientClosed(void)

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<service>
+  <name>serviceapp</name>
+  <filepath>No path</filepath>
+  <description>Telephony service</description>
+  <interface>
+     <name>Dialer</name>
+     <version>1.0</version>
+     <description>Interface which may do something</description>
+     <customproperty key="aiw_status">0x00000001</customproperty>
+     <customproperty key="deprecatedsn">com.nokia.services.serviceapp</customproperty>
+   </interface>
+  <interface>
+     <name>com.nokia.symbian.IUriView</name>
+     <version>1.0</version>
+     <description>Interface for showing URIs</description>
+     <customproperty key="schemes">testto,test2to</customproperty>
+     <customproperty key="deprecatedsn">com.nokia.services.serviceapp</customproperty>
+  </interface>
+  <interface>
+     <name>com.nokia.symbian.IFileView</name>
+     <version>1.0</version>
+     <description>Interface for showing Files</description>
+     <customproperty key="deprecatedsn">com.nokia.services.serviceapp</customproperty>
+   </interface>
+</service>

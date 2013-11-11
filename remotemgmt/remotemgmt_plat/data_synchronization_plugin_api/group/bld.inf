@@ -1,0 +1,34 @@
+/*
+* Copyright (c) 2006 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  File that exports the files belonging to 
+:                Data Synchronization plug-in API
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+
+../inc/SmlDataProvider.h		MW_LAYER_PLATFORM_EXPORT_PATH(SmlDataProvider.h)
+../inc/SmlDataFormat.hrh		MW_LAYER_PLATFORM_EXPORT_PATH(SmlDataFormat.hrh)
+../inc/SyncMLDataFilter.h		MW_LAYER_PLATFORM_EXPORT_PATH(SyncMLDataFilter.h)
+../inc/SyncMLDataFilter.rh		MW_LAYER_PLATFORM_EXPORT_PATH(SyncMLDataFilter.rh)
+../inc/SyncMLDataFilter.hrh		MW_LAYER_PLATFORM_EXPORT_PATH(SyncMLDataFilter.hrh)
+../inc/syncml/SmlDataSyncDefs.h		MW_LAYER_PLATFORM_EXPORT_PATH(SmlDataSyncDefs.h)
+../inc/SmlDataFormat.h			MW_LAYER_PLATFORM_EXPORT_PATH(SmlDataFormat.h)
+../inc/SmlDataFormat.rh			MW_LAYER_PLATFORM_EXPORT_PATH(SmlDataFormat.rh)

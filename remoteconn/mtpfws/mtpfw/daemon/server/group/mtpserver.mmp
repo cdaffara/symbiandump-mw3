@@ -1,0 +1,50 @@
+// Copyright (c) 2006-2009 Nokia Corporation and/or its subsidiary(-ies).
+// All rights reserved.
+// This component and the accompanying materials are made available
+// under the terms of "Eclipse Public License v1.0"
+// which accompanies this distribution, and is available
+// at the URL "http://www.eclipse.org/legal/epl-v10.html".
+//
+// Initial Contributors:
+// Nokia Corporation - initial contribution.
+//
+// Contributors:
+//
+// Description:
+//
+
+TARGET              mtpserver.exe
+TARGETTYPE          EXE
+UID         	    0 0x102827A2
+VENDORID 			0x70000001
+
+CAPABILITY			CommDD PowerMgmt ReadDeviceData WriteDeviceData TrustedUI ProtServ NetworkControl NetworkServices LocalServices ReadUserData WriteUserData
+
+EPOCHEAPSIZE        0x80000   0x800000   // 8MB
+
+EPOCSTACKSIZE       0x14000
+
+MW_LAYER_SYSTEMINCLUDE_SYMBIAN
+
+USERINCLUDE         ../inc/ 
+USERINCLUDE         ../../common/inc/
+USERINCLUDE         ../../../common/inc
+USERINCLUDE         ../../../inc 
+USERINCLUDE         ../../../transports/transportapi/inc 
+USERINCLUDE					../traces
+
+SOURCEPATH          ../src/ 
+SOURCE              cmtpserver.cpp
+SOURCE              cmtpserversession.cpp
+SOURCE 				cmtpshutdown.cpp
+
+// EPOC libraries.
+LIBRARY				ecom.lib
+LIBRARY				efsrv.lib
+LIBRARY 			euser.lib
+
+// MTP libraries.
+LIBRARY				mtpframework.lib
+
+SMPSAFE
+

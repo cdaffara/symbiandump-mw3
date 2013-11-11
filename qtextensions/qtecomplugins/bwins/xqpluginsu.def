@@ -1,0 +1,27 @@
+EXPORTS
+	?unload@XQPluginLoader@@QAE_NXZ @ 1 NONAME ; bool XQPluginLoader::unload(void)
+	?instance@XQPluginLoader@@QAEPAVQObject@@XZ @ 2 NONAME ; class QObject * XQPluginLoader::instance(void)
+	??1XQPluginInfo@@QAE@XZ @ 3 NONAME ; XQPluginInfo::~XQPluginInfo(void)
+	??_ECPluginFactory@@UAE@I@Z @ 4 NONAME ; CPluginFactory::~CPluginFactory(unsigned int)
+	?version@XQPluginInfo@@QBEIXZ @ 5 NONAME ; unsigned int XQPluginInfo::version(void) const
+	??0XQPluginInfo@@QAE@IIABVQString@@0@Z @ 6 NONAME ; XQPluginInfo::XQPluginInfo(unsigned int, unsigned int, class QString const &, class QString const &)
+	?NewL@CPluginFactory@@SAPAV1@H@Z @ 7 NONAME ; class CPluginFactory * CPluginFactory::NewL(int)
+	??_EXQPluginLoader@@UAE@I@Z @ 8 NONAME ; XQPluginLoader::~XQPluginLoader(unsigned int)
+	?dllName@XQPluginInfo@@QBEABVQString@@XZ @ 9 NONAME ; class QString const & XQPluginInfo::dllName(void) const
+	?createQtPlugin@CPluginFactory@@QAEPAVQObject@@XZ @ 10 NONAME ; class QObject * CPluginFactory::createQtPlugin(void)
+	??0XQPluginInfo@@QAE@XZ @ 11 NONAME ; XQPluginInfo::XQPluginInfo(void)
+	??0XQPluginLoader@@QAE@PAVQObject@@@Z @ 12 NONAME ; XQPluginLoader::XQPluginLoader(class QObject *)
+	?load@XQPluginLoader@@QAE_NXZ @ 13 NONAME ; bool XQPluginLoader::load(void)
+	?errorString@XQPluginLoader@@QBE?AVQString@@XZ @ 14 NONAME ; class QString XQPluginLoader::errorString(void) const
+	?opaqueData@XQPluginInfo@@QBEABVQString@@XZ @ 15 NONAME ; class QString const & XQPluginInfo::opaqueData(void) const
+	?isLoaded@XQPluginLoader@@QBE_NXZ @ 16 NONAME ; bool XQPluginLoader::isLoaded(void) const
+	?setUid@XQPluginLoader@@QAEXH@Z @ 17 NONAME ; void XQPluginLoader::setUid(int)
+	??0XQPluginInfo@@QAE@ABV0@@Z @ 18 NONAME ; XQPluginInfo::XQPluginInfo(class XQPluginInfo const &)
+	?uid@XQPluginInfo@@QBEIXZ @ 19 NONAME ; unsigned int XQPluginInfo::uid(void) const
+	??4XQPluginInfo@@QAEAAV0@ABV0@@Z @ 20 NONAME ; class XQPluginInfo & XQPluginInfo::operator=(class XQPluginInfo const &)
+	??1CPluginFactory@@UAE@XZ @ 21 NONAME ; CPluginFactory::~CPluginFactory(void)
+	?uid@XQPluginLoader@@QBEHXZ @ 22 NONAME ; int XQPluginLoader::uid(void) const
+	??1XQPluginLoader@@UAE@XZ @ 23 NONAME ; XQPluginLoader::~XQPluginLoader(void)
+	??0XQPluginLoader@@QAE@HPAVQObject@@@Z @ 24 NONAME ; XQPluginLoader::XQPluginLoader(int, class QObject *)
+	?listImplementations@XQPluginLoader@@SA_NABVQString@@AAV?$QList@VXQPluginInfo@@@@@Z @ 25 NONAME ; bool XQPluginLoader::listImplementations(class QString const &, class QList<class XQPluginInfo> &)
+

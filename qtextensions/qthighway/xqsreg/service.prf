@@ -1,0 +1,38 @@
+######################################################################
+# XQService Feature
+######################################################################
+
+isEmpty(SERVICE.FILE) {
+	error("Missing service configuration file")
+}
+else {
+	XQSREG = xqsreg.exe
+	XQSRESOURCE_FILE_TAIL=_reg.rss
+	XQSRESOURCE_FILE=$$TARGET$$XQSRESOURCE_FILE_TAIL
+	
+	
+symbian-sbsv2{
+
+	
+ myextension = \
+    "START EXTENSION qt/qtextensions_pre_targetdep.export" \
+    "OPTION PREDEP_TARGET $$XQSRESOURCE_FILE" \
+    "OPTION COMMAND $$XQSREG $$TARGET $${TARGET.UID3} $$SERVICE.FILE $$XQSRESOURCE_FILE $$SERVICE.OPTIONS" \
+    "END"
+ BLD_INF_RULES.prj_extensions += myextension
+}
+
+symbian-abld{
+
+
+  DUMMY = xqs_dummy
+	xqs.output = $$DUMMY
+	XQS_INPUT = .
+	xqs.input = XQS_INPUT
+	xqs.CONFIG = no_link explicit_dependencies
+	xqs.variable_out = SOURCES
+	xqs.commands = $$XQSREG $$TARGET $${TARGET.UID3} $$SERVICE.FILE $$XQSRESOURCE_FILE $$SERVICE.OPTIONS
+	QMAKE_EXTRA_COMPILERS += xqs
+}
+
+}

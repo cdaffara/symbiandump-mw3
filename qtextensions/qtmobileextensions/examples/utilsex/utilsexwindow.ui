@@ -1,0 +1,46 @@
+<ui version="4.0" >
+ <class>UtilsExWindowClass</class>
+ <widget class="QMainWindow" name="UtilsExWindowClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="sizePolicy" >
+   <sizepolicy vsizetype="Expanding" hsizetype="Expanding" >
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle" >
+   <string>UtilsEx</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QVBoxLayout" name="verticalLayout_2" >
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout" >
+      <item>
+       <widget class="QPushButton" name="startLitButton" >
+        <property name="text" >
+         <string>Light ON</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="stopLitButton" >
+        <property name="text" >
+         <string>Light OFF</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

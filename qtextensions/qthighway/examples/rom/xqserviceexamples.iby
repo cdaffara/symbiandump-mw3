@@ -1,0 +1,56 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation, version 2.1 of the License.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, 
+* see "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html/".
+*
+* Description: 
+*
+*/
+
+#ifndef __XQSERVICEEXAMPLES_IBY__
+#define __XQSERVICEEXAMPLES_IBY__
+
+#include <bldvariant.hrh>
+
+#define UPGRADABLE_APP_REG_RSC(NAME) data=DATAZ_\PRIVATE\10003A3F\IMPORT\APPS\ ## NAME ## _reg.rsc        Private\10003a3f\import\apps\ ## NAME ## _reg.rsc
+
+S60_APP_EXE(serviceapp)
+S60_APP_RESOURCE(serviceapp)
+UPGRADABLE_APP_REG_RSC(serviceapp)
+
+S60_APP_EXE(serviceclient)
+S60_APP_RESOURCE(serviceclient)
+UPGRADABLE_APP_REG_RSC(serviceclient)
+
+S60_APP_EXE(appmgrclient)
+S60_APP_RESOURCE(appmgrclient)
+UPGRADABLE_APP_REG_RSC(appmgrclient)
+
+S60_APP_EXE(appmgrclient2)
+S60_APP_RESOURCE(appmgrclient2)
+UPGRADABLE_APP_REG_RSC(appmgrclient2)
+
+/*
+S60_APP_EXE(hbserviceprovider)
+S60_APP_RESOURCE(hbserviceprovider)
+UPGRADABLE_APP_REG_RSC(hbserviceprovider)
+data=DATAZ_\resource\qt\translations\hbserviceprovider_en.qm  resource\qt\translations\hbserviceprovider_en.qm
+
+S60_APP_EXE(hbserviceclient)
+S60_APP_RESOURCE(hbserviceclient)
+UPGRADABLE_APP_REG_RSC(hbserviceclient)
+*/
+
+#endif

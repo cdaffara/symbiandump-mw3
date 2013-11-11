@@ -1,0 +1,40 @@
+EXPORTS
+	_ZN13XQConversions16qStringToS60DescERK7QString @ 1 NONAME
+	_ZN13XQConversions16s60DescToQStringERK7TDesC16 @ 2 NONAME
+	_ZN13XQConversions17qStringToS60Desc8ERK7QString @ 3 NONAME
+	_ZN13XQConversions17s60Desc8ToQStringERK6TDesC8 @ 4 NONAME
+	_ZN13XQConversions20qByteArrayToS60Desc8ERK10QByteArray @ 5 NONAME
+	_ZN13XQConversions20s60Desc8ToQByteArrayERK6TDesC8 @ 6 NONAME
+	_ZN7XQUtils10imagesPathEv @ 7 NONAME
+	_ZN7XQUtils10launchFileERK7QString @ 8 NONAME
+	_ZN7XQUtils10othersPathEv @ 9 NONAME
+	_ZN7XQUtils10soundsPathEv @ 10 NONAME
+	_ZN7XQUtils10videosPathEv @ 11 NONAME
+	_ZN7XQUtils11qt_metacallEN11QMetaObject4CallEiPPv @ 12 NONAME
+	_ZN7XQUtils11qt_metacastEPKc @ 13 NONAME
+	_ZN7XQUtils11romRootPathEv @ 14 NONAME
+	_ZN7XQUtils12installsPathEv @ 15 NONAME
+	_ZN7XQUtils12picturesPathEv @ 16 NONAME
+	_ZN7XQUtils15gmsPicturesPathEv @ 17 NONAME
+	_ZN7XQUtils16simpleSoundsPathEv @ 18 NONAME
+	_ZN7XQUtils16staticMetaObjectE @ 19 NONAME DATA 16
+	_ZN7XQUtils17digitalSoundsPathEv @ 20 NONAME
+	_ZN7XQUtils17presenceLogosPathEv @ 21 NONAME
+	_ZN7XQUtils18memoryCardRootPathEv @ 22 NONAME
+	_ZN7XQUtils19getStaticMetaObjectEv @ 23 NONAME
+	_ZN7XQUtils19imagesThumbnailPathEv @ 24 NONAME
+	_ZN7XQUtils19phoneMemoryRootPathEv @ 25 NONAME
+	_ZN7XQUtils19resetInactivityTimeEv @ 26 NONAME
+	_ZN7XQUtils22memoryCardContactsPathEv @ 27 NONAME
+	_ZN7XQUtils23mmsBackgroundImagesPathEv @ 28 NONAME
+	_ZN7XQUtils9gamesPathEv @ 29 NONAME
+	_ZN7XQUtilsC1EP7QObject @ 30 NONAME
+	_ZN7XQUtilsC2EP7QObject @ 31 NONAME
+	_ZN7XQUtilsD0Ev @ 32 NONAME
+	_ZN7XQUtilsD1Ev @ 33 NONAME
+	_ZN7XQUtilsD2Ev @ 34 NONAME
+	_ZNK7XQUtils10metaObjectEv @ 35 NONAME
+	_ZNK7XQUtils5errorEv @ 36 NONAME
+	_ZTI7XQUtils @ 37 NONAME
+	_ZTV7XQUtils @ 38 NONAME
+

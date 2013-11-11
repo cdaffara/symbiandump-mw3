@@ -1,0 +1,28 @@
+EXPORTS
+	?getSession@ServiceIPCRequest@QtService@@QAEPAVServiceIPCSession@2@XZ @ 1 NONAME ; class QtService::ServiceIPCSession * QtService::ServiceIPCRequest::getSession(void)
+	??_EServiceFwIPCServer@QtService@@UAE@I@Z @ 2 NONAME ; QtService::ServiceFwIPCServer::~ServiceFwIPCServer(unsigned int)
+	??1ServiceFwIPCServer@QtService@@UAE@XZ @ 3 NONAME ; QtService::ServiceFwIPCServer::~ServiceFwIPCServer(void)
+	?disconnect@ServiceFwIPCServer@QtService@@QAEXXZ @ 4 NONAME ; void QtService::ServiceFwIPCServer::disconnect(void)
+	?completeRequest@ServiceIPCRequest@QtService@@QAE_NXZ @ 5 NONAME ; bool QtService::ServiceIPCRequest::completeRequest(void)
+	??0ServiceIPCRequest@QtService@@QAE@AAV01@@Z @ 6 NONAME ; QtService::ServiceIPCRequest::ServiceIPCRequest(class QtService::ServiceIPCRequest &)
+	??0ServiceIPCRequest@QtService@@QAE@PAVServiceIPCSession@1@_JABVQString@@@Z @ 7 NONAME ; QtService::ServiceIPCRequest::ServiceIPCRequest(class QtService::ServiceIPCSession *, long long, class QString const &)
+	?write@ServiceIPCRequest@QtService@@QAE_NABVQByteArray@@@Z @ 8 NONAME ; bool QtService::ServiceIPCRequest::write(class QByteArray const &)
+	?setClientInfo@ServiceIPCRequest@QtService@@QAEXPAVClientInfo@2@@Z @ 9 NONAME ; void QtService::ServiceIPCRequest::setClientInfo(class QtService::ClientInfo *)
+	?getOperation@ServiceIPCRequest@QtService@@QAEABVQString@@XZ @ 10 NONAME ; class QString const & QtService::ServiceIPCRequest::getOperation(void)
+	??1ServiceIPCRequest@QtService@@UAE@XZ @ 11 NONAME ; QtService::ServiceIPCRequest::~ServiceIPCRequest(void)
+	??_EServiceIPCRequest@QtService@@UAE@I@Z @ 12 NONAME ; QtService::ServiceIPCRequest::~ServiceIPCRequest(unsigned int)
+	?listen@ServiceFwIPCServer@QtService@@QAE_NABVQString@@@Z @ 13 NONAME ; bool QtService::ServiceFwIPCServer::listen(class QString const &)
+	??0ServiceFwIPCServer@QtService@@QAE@PAVMServiceIPCObserver@1@PAVQObject@@W4TServiceIPCBackends@1@@Z @ 14 NONAME ; QtService::ServiceFwIPCServer::ServiceFwIPCServer(class QtService::MServiceIPCObserver *, class QObject *, enum QtService::TServiceIPCBackends)
+	?clientInfo@ServiceIPCRequest@QtService@@QAEPAVClientInfo@2@XZ @ 15 NONAME ; class QtService::ClientInfo * QtService::ServiceIPCRequest::clientInfo(void)
+	?addRequestdata@ServiceIPCRequest@QtService@@QAE_NABVQByteArray@@@Z @ 16 NONAME ; bool QtService::ServiceIPCRequest::addRequestdata(class QByteArray const &)
+	??4ServiceIPCRequest@QtService@@QAEAAV01@AAV01@@Z @ 17 NONAME ; class QtService::ServiceIPCRequest & QtService::ServiceIPCRequest::operator=(class QtService::ServiceIPCRequest &)
+	?getData@ServiceIPCRequest@QtService@@QAEABVQByteArray@@XZ @ 18 NONAME ; class QByteArray const & QtService::ServiceIPCRequest::getData(void)
+	?isAsync@ServiceIPCRequest@QtService@@QBE_NXZ @ 19 NONAME ; bool QtService::ServiceIPCRequest::isAsync(void) const
+	?setAsync@ServiceIPCRequest@QtService@@QAEX_N@Z @ 20 NONAME ; void QtService::ServiceIPCRequest::setAsync(bool)
+	?setId@ServiceIPCRequest@QtService@@QAEXH@Z @ 21 NONAME ; void QtService::ServiceIPCRequest::setId(int)
+	?id@ServiceIPCRequest@QtService@@QBEHXZ @ 22 NONAME ; int QtService::ServiceIPCRequest::id(void) const
+	?requestInfo@ServiceIPCRequest@QtService@@QBE?AVXQRequestInfo@@XZ @ 23 NONAME ; class XQRequestInfo QtService::ServiceIPCRequest::requestInfo(void) const
+	?sharableFile@ServiceIPCRequest@QtService@@QBE?AVXQSharableFile@@H@Z @ 24 NONAME ; class XQSharableFile QtService::ServiceIPCRequest::sharableFile(int) const
+	?addSharableFile@ServiceIPCRequest@QtService@@QAEXPAVXQSharableFile@@H@Z @ 25 NONAME ; void QtService::ServiceIPCRequest::addSharableFile(class XQSharableFile *, int)
+	?setRequestInfo@ServiceIPCRequest@QtService@@QAEXPAVXQRequestInfo@@@Z @ 26 NONAME ; void QtService::ServiceIPCRequest::setRequestInfo(class XQRequestInfo *)
+

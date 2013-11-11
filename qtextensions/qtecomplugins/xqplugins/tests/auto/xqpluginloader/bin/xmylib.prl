@@ -1,0 +1,4 @@
+QMAKE_PRL_BUILD_DIR = x:\qt\tests\auto\qpluginloader\lib
+QMAKE_PRO_INPUT = xlib.pro
+QMAKE_PRL_TARGET = xmylib
+QMAKE_PRL_CONFIG = lex yacc warn_on debug uic resources stl_off qt warn_on incremental debug shared exceptions_off minimal-config small-config medium-config large-config full-config build_all debug cross_compile incremental create_prl link_prl depend_includepath QTDIR_build dll shared dll qtmain moc thread

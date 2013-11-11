@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<service>
+  <name>com.nokia.services.hbserviceprovider</name>
+  <filepath>="must-not-be-empty"</filepath>
+  <description>Telephony service</description>
+  <interface>
+     <name>Dialer</name>
+     <version>1.0</version>
+     <description>Dial interface</description>
+     <customproperty key="aiw_action_text_file">hbserviceprovider</customproperty>
+     <customproperty key="aiw_action_text">txt_aiw_action_text</customproperty>
+  </interface>
+  <interface>
+     <name>Map</name>
+     <version>1.0</version>
+     <description>Map interface</description>
+  </interface>
+</service>

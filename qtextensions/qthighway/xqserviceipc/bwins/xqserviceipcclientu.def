@@ -1,0 +1,35 @@
+EXPORTS
+	?tr@ServiceFwIPC@QtService@@SA?AVQString@@PBD0@Z @ 1 NONAME ; class QString QtService::ServiceFwIPC::tr(char const *, char const *)
+	?qt_metacall@ServiceFwIPC@QtService@@UAEHW4Call@QMetaObject@@HPAPAX@Z @ 2 NONAME ; int QtService::ServiceFwIPC::qt_metacall(enum QMetaObject::Call, int, void * *)
+	?isIPCTypeSupported@ServiceFwIPCFactory@QtService@@SA_NW4TServiceIPCBackends@2@@Z @ 3 NONAME ; bool QtService::ServiceFwIPCFactory::isIPCTypeSupported(enum QtService::TServiceIPCBackends)
+	??_EServiceFwIPC@QtService@@UAE@I@Z @ 4 NONAME ; QtService::ServiceFwIPC::~ServiceFwIPC(unsigned int)
+	?getStaticMetaObject@ServiceFwIPC@QtService@@SAABUQMetaObject@@XZ @ 5 NONAME ; struct QMetaObject const & QtService::ServiceFwIPC::getStaticMetaObject(void)
+	??0ServiceFwIPC@QtService@@QAE@PAVQObject@@W4TServiceIPCBackends@1@@Z @ 6 NONAME ; QtService::ServiceFwIPC::ServiceFwIPC(class QObject *, enum QtService::TServiceIPCBackends)
+	?send@ServiceFwIPC@QtService@@QAE_NABVQString@@ABVQByteArray@@@Z @ 7 NONAME ABSENT ; bool QtService::ServiceFwIPC::send(class QString const &, class QByteArray const &)
+	?readAll@ServiceFwIPC@QtService@@QAEXAAVQByteArray@@@Z @ 8 NONAME ; void QtService::ServiceFwIPC::readAll(class QByteArray &)
+	??1ServiceFwIPC@QtService@@UAE@XZ @ 9 NONAME ; QtService::ServiceFwIPC::~ServiceFwIPC(void)
+	?SendReceive@RApaIPCSession@QtService@@QBEXHAAVTRequestStatus@@@Z @ 10 NONAME ; void QtService::RApaIPCSession::SendReceive(int, class TRequestStatus &) const
+	??_EServiceFwIPCFactory@QtService@@UAE@I@Z @ 11 NONAME ; QtService::ServiceFwIPCFactory::~ServiceFwIPCFactory(unsigned int)
+	?trUtf8@ServiceFwIPC@QtService@@SA?AVQString@@PBD0H@Z @ 12 NONAME ; class QString QtService::ServiceFwIPC::trUtf8(char const *, char const *, int)
+	?trUtf8@ServiceFwIPC@QtService@@SA?AVQString@@PBD0@Z @ 13 NONAME ; class QString QtService::ServiceFwIPC::trUtf8(char const *, char const *)
+	?qt_metacast@ServiceFwIPC@QtService@@UAEPAXPBD@Z @ 14 NONAME ; void * QtService::ServiceFwIPC::qt_metacast(char const *)
+	?requestPending@ServiceFwIPC@QtService@@QAE_NXZ @ 15 NONAME ; bool QtService::ServiceFwIPC::requestPending(void)
+	?ReadDone@ServiceFwIPC@QtService@@IAEXXZ @ 16 NONAME ; void QtService::ServiceFwIPC::ReadDone(void)
+	?sendAsync@ServiceFwIPC@QtService@@QAEXABVQString@@ABVQByteArray@@@Z @ 17 NONAME ; void QtService::ServiceFwIPC::sendAsync(class QString const &, class QByteArray const &)
+	?connect@ServiceFwIPC@QtService@@QAE_NABVQString@@@Z @ 18 NONAME ; bool QtService::ServiceFwIPC::connect(class QString const &)
+	?tr@ServiceFwIPC@QtService@@SA?AVQString@@PBD0H@Z @ 19 NONAME ; class QString QtService::ServiceFwIPC::tr(char const *, char const *, int)
+	??1ServiceFwIPCFactory@QtService@@UAE@XZ @ 20 NONAME ; QtService::ServiceFwIPCFactory::~ServiceFwIPCFactory(void)
+	?SendReceive@RServiceIPCSession@QtService@@QBEXHAAVTRequestStatus@@@Z @ 21 NONAME ; void QtService::RServiceIPCSession::SendReceive(int, class TRequestStatus &) const
+	?metaObject@ServiceFwIPC@QtService@@UBEPBUQMetaObject@@XZ @ 22 NONAME ; struct QMetaObject const * QtService::ServiceFwIPC::metaObject(void) const
+	?startServer@ServiceFwIPC@QtService@@QAE_NABVQString@@0AA_KW4ServiceIPCStartServerOptions@12@@Z @ 23 NONAME ; bool QtService::ServiceFwIPC::startServer(class QString const &, class QString const &, unsigned long long &, enum QtService::ServiceFwIPC::ServiceIPCStartServerOptions)
+	??0ServiceFwIPCFactory@QtService@@QAE@XZ @ 24 NONAME ; QtService::ServiceFwIPCFactory::ServiceFwIPCFactory(void)
+	?readAll@ServiceFwIPC@QtService@@QAE?AVQByteArray@@XZ @ 25 NONAME ; class QByteArray QtService::ServiceFwIPC::readAll(void)
+	?waitForRead@ServiceFwIPC@QtService@@AAE_NXZ @ 26 NONAME ; bool QtService::ServiceFwIPC::waitForRead(void)
+	?staticMetaObject@ServiceFwIPC@QtService@@2UQMetaObject@@B @ 27 NONAME ; struct QMetaObject const QtService::ServiceFwIPC::staticMetaObject
+	?createBackend@ServiceFwIPCFactory@QtService@@SAPAVServiceFwIPCPrivate@2@W4TServiceIPCBackends@2@@Z @ 28 NONAME ; class QtService::ServiceFwIPCPrivate * QtService::ServiceFwIPCFactory::createBackend(enum QtService::TServiceIPCBackends)
+	?error@ServiceFwIPC@QtService@@IAEXH@Z @ 29 NONAME ; void QtService::ServiceFwIPC::error(int)
+	?sendSync@ServiceFwIPC@QtService@@QAE_NABVQString@@ABVQByteArray@@@Z @ 30 NONAME ; bool QtService::ServiceFwIPC::sendSync(class QString const &, class QByteArray const &)
+	?disconnect@ServiceFwIPC@QtService@@QAEXXZ @ 31 NONAME ; void QtService::ServiceFwIPC::disconnect(void)
+	?readyRead@ServiceFwIPC@QtService@@IAEXXZ @ 32 NONAME ; void QtService::ServiceFwIPC::readyRead(void)
+	?setUserData@ServiceFwIPC@QtService@@QAEXPBX@Z @ 33 NONAME ; void QtService::ServiceFwIPC::setUserData(void const *)
+

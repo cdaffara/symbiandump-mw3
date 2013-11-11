@@ -1,0 +1,68 @@
+EXPORTS
+	??_EXQPublishAndSubscribeUtils@@UAE@I@Z @ 1 NONAME ; XQPublishAndSubscribeUtils::~XQPublishAndSubscribeUtils(unsigned int)
+	?commitTransaction@XQCentralRepositoryUtils@@QAE_NJ@Z @ 2 NONAME ; bool XQCentralRepositoryUtils::commitTransaction(long)
+	??1XQSettingsKey@@QAE@XZ @ 3 NONAME ; XQSettingsKey::~XQSettingsKey(void)
+	?tr@XQSettingsManager@@SA?AVQString@@PBD0@Z @ 4 NONAME ; class QString XQSettingsManager::tr(char const *, char const *)
+	?itemDeleted@XQSettingsManager@@IAEXABVXQSettingsKey@@@Z @ 5 NONAME ; void XQSettingsManager::itemDeleted(class XQSettingsKey const &)
+	??0XQPublishAndSubscribeSecurityPolicy@@QAE@VVendorId@0@V?$QList@W4Capability@XQPublishAndSubscribeSecurityPolicy@@@@@Z @ 6 NONAME ; XQPublishAndSubscribeSecurityPolicy::XQPublishAndSubscribeSecurityPolicy(class XQPublishAndSubscribeSecurityPolicy::VendorId, class QList<enum XQPublishAndSubscribeSecurityPolicy::Capability>)
+	?startMonitoring@XQSettingsManager@@QAE_NABVXQSettingsKey@@W4Type@1@@Z @ 7 NONAME ; bool XQSettingsManager::startMonitoring(class XQSettingsKey const &, enum XQSettingsManager::Type)
+	?findKeys@XQCentralRepositoryUtils@@QAE?AV?$QList@VXQCentralRepositorySettingsKey@@@@ABVXQCentralRepositorySearchCriteria@@@Z @ 8 NONAME ; class QList<class XQCentralRepositorySettingsKey> XQCentralRepositoryUtils::findKeys(class XQCentralRepositorySearchCriteria const &)
+	??0XQPublishAndSubscribeSecurityPolicy@@QAE@V?$QList@W4Capability@XQPublishAndSubscribeSecurityPolicy@@@@@Z @ 9 NONAME ; XQPublishAndSubscribeSecurityPolicy::XQPublishAndSubscribeSecurityPolicy(class QList<enum XQPublishAndSubscribeSecurityPolicy::Capability>)
+	?bitMask@XQCentralRepositorySearchCriteria@@QBEKXZ @ 10 NONAME ; unsigned long XQCentralRepositorySearchCriteria::bitMask(void) const
+	?metaObject@XQSettingsManager@@UBEPBUQMetaObject@@XZ @ 11 NONAME ; struct QMetaObject const * XQSettingsManager::metaObject(void) const
+	??_EXQCentralRepositorySettingsKey@@QAE@I@Z @ 12 NONAME ; XQCentralRepositorySettingsKey::~XQCentralRepositorySettingsKey(unsigned int)
+	??0XQCentralRepositorySettingsKey@@QAE@JK@Z @ 13 NONAME ; XQCentralRepositorySettingsKey::XQCentralRepositorySettingsKey(long, unsigned long)
+	??0XQPublishAndSubscribeUtils@@QAE@AAVXQSettingsManager@@PAVQObject@@@Z @ 14 NONAME ; XQPublishAndSubscribeUtils::XQPublishAndSubscribeUtils(class XQSettingsManager &, class QObject *)
+	?stopMonitoring@XQSettingsManager@@QAE_NABVXQSettingsKey@@@Z @ 15 NONAME ; bool XQSettingsManager::stopMonitoring(class XQSettingsKey const &)
+	?secureId@XQPublishAndSubscribeSecurityPolicy@@QBE?AVSecureId@1@XZ @ 16 NONAME ; class XQPublishAndSubscribeSecurityPolicy::SecureId XQPublishAndSubscribeSecurityPolicy::secureId(void) const
+	?negativeCriteria@XQCentralRepositorySearchCriteria@@QBE_NXZ @ 17 NONAME ; bool XQCentralRepositorySearchCriteria::negativeCriteria(void) const
+	??0XQPublishAndSubscribeSettingsKey@@QAE@JK@Z @ 18 NONAME ; XQPublishAndSubscribeSettingsKey::XQPublishAndSubscribeSettingsKey(long, unsigned long)
+	??1XQCentralRepositorySettingsKey@@QAE@XZ @ 19 NONAME ; XQCentralRepositorySettingsKey::~XQCentralRepositorySettingsKey(void)
+	?deleteKey@XQCentralRepositoryUtils@@QAE_NABVXQCentralRepositorySettingsKey@@@Z @ 20 NONAME ; bool XQCentralRepositoryUtils::deleteKey(class XQCentralRepositorySettingsKey const &)
+	?createKey@XQCentralRepositoryUtils@@QAE_NABVXQCentralRepositorySettingsKey@@ABVQVariant@@@Z @ 21 NONAME ; bool XQCentralRepositoryUtils::createKey(class XQCentralRepositorySettingsKey const &, class QVariant const &)
+	?cancelTransaction@XQCentralRepositoryUtils@@QAEXJ@Z @ 22 NONAME ; void XQCentralRepositoryUtils::cancelTransaction(long)
+	??1XQPublishAndSubscribeSettingsKey@@QAE@XZ @ 23 NONAME ; XQPublishAndSubscribeSettingsKey::~XQPublishAndSubscribeSettingsKey(void)
+	?deleteProperty@XQPublishAndSubscribeUtils@@QAE_NABVXQPublishAndSubscribeSettingsKey@@@Z @ 24 NONAME ; bool XQPublishAndSubscribeUtils::deleteProperty(class XQPublishAndSubscribeSettingsKey const &)
+	?repositoryUid@XQCentralRepositorySearchCriteria@@QBEJXZ @ 25 NONAME ; long XQCentralRepositorySearchCriteria::repositoryUid(void) const
+	?readItemValue@XQSettingsManager@@QAE?AVQVariant@@ABVXQSettingsKey@@W4Type@1@@Z @ 26 NONAME ; class QVariant XQSettingsManager::readItemValue(class XQSettingsKey const &, enum XQSettingsManager::Type)
+	?uid@XQSettingsKey@@QBEJXZ @ 27 NONAME ; long XQSettingsKey::uid(void) const
+	?trUtf8@XQSettingsManager@@SA?AVQString@@PBD0@Z @ 28 NONAME ; class QString XQSettingsManager::trUtf8(char const *, char const *)
+	?failTransaction@XQCentralRepositoryUtils@@QAEXJ@Z @ 29 NONAME ; void XQCentralRepositoryUtils::failTransaction(long)
+	??0XQCentralRepositorySettingsKey@@QAE@ABV0@@Z @ 30 NONAME ; XQCentralRepositorySettingsKey::XQCentralRepositorySettingsKey(class XQCentralRepositorySettingsKey const &)
+	?transactionState@XQCentralRepositoryUtils@@QBE?AW4TransactionState@1@J@Z @ 31 NONAME ; enum XQCentralRepositoryUtils::TransactionState XQCentralRepositoryUtils::transactionState(long) const
+	?setValueCriteria@XQCentralRepositorySearchCriteria@@QAEXABVQVariant@@_N@Z @ 32 NONAME ; void XQCentralRepositorySearchCriteria::setValueCriteria(class QVariant const &, bool)
+	?error@XQSettingsManager@@QBE?AW4Error@1@XZ @ 33 NONAME ; enum XQSettingsManager::Error XQSettingsManager::error(void) const
+	??1XQPublishAndSubscribeUtils@@UAE@XZ @ 34 NONAME ; XQPublishAndSubscribeUtils::~XQPublishAndSubscribeUtils(void)
+	??1XQSettingsManager@@UAE@XZ @ 35 NONAME ; XQSettingsManager::~XQSettingsManager(void)
+	??0XQPublishAndSubscribeSecurityPolicy@@QAE@VSecureId@0@V?$QList@W4Capability@XQPublishAndSubscribeSecurityPolicy@@@@@Z @ 36 NONAME ; XQPublishAndSubscribeSecurityPolicy::XQPublishAndSubscribeSecurityPolicy(class XQPublishAndSubscribeSecurityPolicy::SecureId, class QList<enum XQPublishAndSubscribeSecurityPolicy::Capability>)
+	?qt_metacall@XQSettingsManager@@UAEHW4Call@QMetaObject@@HPAPAX@Z @ 37 NONAME ; int XQSettingsManager::qt_metacall(enum QMetaObject::Call, int, void * *)
+	?writeItemValue@XQSettingsManager@@QAE_NABVXQSettingsKey@@ABVQVariant@@@Z @ 38 NONAME ; bool XQSettingsManager::writeItemValue(class XQSettingsKey const &, class QVariant const &)
+	?key@XQSettingsKey@@QBEKXZ @ 39 NONAME ; unsigned long XQSettingsKey::key(void) const
+	??_EXQSettingsManager@@UAE@I@Z @ 40 NONAME ; XQSettingsManager::~XQSettingsManager(unsigned int)
+	?resetRepository@XQCentralRepositoryUtils@@QAE_NJ@Z @ 41 NONAME ; bool XQCentralRepositoryUtils::resetRepository(long)
+	?value@XQCentralRepositorySearchCriteria@@QBEABVQVariant@@XZ @ 42 NONAME ; class QVariant const & XQCentralRepositorySearchCriteria::value(void) const
+	??0XQSettingsKey@@QAE@W4Target@0@JK@Z @ 43 NONAME ; XQSettingsKey::XQSettingsKey(enum XQSettingsKey::Target, long, unsigned long)
+	??0XQCentralRepositorySearchCriteria@@QAE@JKK@Z @ 44 NONAME ; XQCentralRepositorySearchCriteria::XQCentralRepositorySearchCriteria(long, unsigned long, unsigned long)
+	?staticMetaObject@XQSettingsManager@@2UQMetaObject@@B @ 45 NONAME ; struct QMetaObject const XQSettingsManager::staticMetaObject
+	?partialKey@XQCentralRepositorySearchCriteria@@QBEKXZ @ 46 NONAME ; unsigned long XQCentralRepositorySearchCriteria::partialKey(void) const
+	?tr@XQSettingsManager@@SA?AVQString@@PBD0H@Z @ 47 NONAME ; class QString XQSettingsManager::tr(char const *, char const *, int)
+	??1XQPublishAndSubscribeSecurityPolicy@@QAE@XZ @ 48 NONAME ; XQPublishAndSubscribeSecurityPolicy::~XQPublishAndSubscribeSecurityPolicy(void)
+	?capabilities@XQPublishAndSubscribeSecurityPolicy@@QBE?AV?$QList@W4Capability@XQPublishAndSubscribeSecurityPolicy@@@@XZ @ 49 NONAME ; class QList<enum XQPublishAndSubscribeSecurityPolicy::Capability> XQPublishAndSubscribeSecurityPolicy::capabilities(void) const
+	?valueChanged@XQSettingsManager@@IAEXABVXQSettingsKey@@ABVQVariant@@@Z @ 50 NONAME ; void XQSettingsManager::valueChanged(class XQSettingsKey const &, class QVariant const &)
+	?secPolicyType@XQPublishAndSubscribeSecurityPolicy@@QBE?AW4SecPolicyType@1@XZ @ 51 NONAME ; enum XQPublishAndSubscribeSecurityPolicy::SecPolicyType XQPublishAndSubscribeSecurityPolicy::secPolicyType(void) const
+	?vendorId@XQPublishAndSubscribeSecurityPolicy@@QBE?AVVendorId@1@XZ @ 52 NONAME ; class XQPublishAndSubscribeSecurityPolicy::VendorId XQPublishAndSubscribeSecurityPolicy::vendorId(void) const
+	??1XQCentralRepositorySearchCriteria@@QAE@XZ @ 53 NONAME ; XQCentralRepositorySearchCriteria::~XQCentralRepositorySearchCriteria(void)
+	??1XQCentralRepositoryUtils@@UAE@XZ @ 54 NONAME ; XQCentralRepositoryUtils::~XQCentralRepositoryUtils(void)
+	??_EXQCentralRepositoryUtils@@UAE@I@Z @ 55 NONAME ; XQCentralRepositoryUtils::~XQCentralRepositoryUtils(unsigned int)
+	??0XQPublishAndSubscribeSecurityPolicy@@QAE@W4SecPolicyType@0@@Z @ 56 NONAME ; XQPublishAndSubscribeSecurityPolicy::XQPublishAndSubscribeSecurityPolicy(enum XQPublishAndSubscribeSecurityPolicy::SecPolicyType)
+	?trUtf8@XQSettingsManager@@SA?AVQString@@PBD0H@Z @ 57 NONAME ; class QString XQSettingsManager::trUtf8(char const *, char const *, int)
+	?qt_metacast@XQSettingsManager@@UAEPAXPBD@Z @ 58 NONAME ; void * XQSettingsManager::qt_metacast(char const *)
+	?getStaticMetaObject@XQSettingsManager@@SAABUQMetaObject@@XZ @ 59 NONAME ; struct QMetaObject const & XQSettingsManager::getStaticMetaObject(void)
+	?defineProperty@XQPublishAndSubscribeUtils@@QAE_NABVXQPublishAndSubscribeSettingsKey@@W4Type@XQSettingsManager@@ABVXQPublishAndSubscribeSecurityPolicy@@2@Z @ 60 NONAME ; bool XQPublishAndSubscribeUtils::defineProperty(class XQPublishAndSubscribeSettingsKey const &, enum XQSettingsManager::Type, class XQPublishAndSubscribeSecurityPolicy const &, class XQPublishAndSubscribeSecurityPolicy const &)
+	??0XQSettingsManager@@QAE@PAVQObject@@@Z @ 61 NONAME ; XQSettingsManager::XQSettingsManager(class QObject *)
+	??0XQCentralRepositoryUtils@@QAE@AAVXQSettingsManager@@PAVQObject@@@Z @ 62 NONAME ; XQCentralRepositoryUtils::XQCentralRepositoryUtils(class XQSettingsManager &, class QObject *)
+	?target@XQSettingsKey@@QBE?AW4Target@1@XZ @ 63 NONAME ; enum XQSettingsKey::Target XQSettingsKey::target(void) const
+	?resetKey@XQCentralRepositoryUtils@@QAE_NABVXQCentralRepositorySettingsKey@@@Z @ 64 NONAME ; bool XQCentralRepositoryUtils::resetKey(class XQCentralRepositorySettingsKey const &)
+	?defineProperty@XQPublishAndSubscribeUtils@@QAE_NABVXQPublishAndSubscribeSettingsKey@@W4Type@XQSettingsManager@@@Z @ 65 NONAME ; bool XQPublishAndSubscribeUtils::defineProperty(class XQPublishAndSubscribeSettingsKey const &, enum XQSettingsManager::Type)
+	?startTransaction@XQCentralRepositoryUtils@@QAE_NJW4TransactionMode@1@@Z @ 66 NONAME ; bool XQCentralRepositoryUtils::startTransaction(long, enum XQCentralRepositoryUtils::TransactionMode)
+

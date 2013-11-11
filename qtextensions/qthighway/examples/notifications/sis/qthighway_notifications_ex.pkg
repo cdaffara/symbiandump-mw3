@@ -1,0 +1,47 @@
+;
+; Copyright (c) 2010 Nokia Corporation and/or its subsidiary(-ies).
+; All rights reserved.
+; This component and the accompanying materials are made available
+; under the terms of "Eclipse Public License v1.0"
+; which accompanies this distribution, and is available
+; at the URL "http://www.eclipse.org/legal/epl-v10.html".
+;
+; Initial Contributors:
+; Nokia Corporation - initial contribution.
+;
+; Contributors:
+;
+; Description: System Tone Service - UDEB build
+;
+;File: systemtoneservice.pkg
+
+;Languages
+&EN
+
+;Header
+; SIS header: name, uid, version
+#{"SystemToneServiceEx"},(0xE9e86548),1,0,0, TYPE=SA, RU
+
+;Series 60 v5.0
+[0x1028315F], 0,0,0, {"Series60ProductID"}
+
+;Localised Vendor name
+%{"Nokia"}
+
+;Unique Vendor name
+:"Nokia"
+
+;Files To Copy...<src> <destination>
+; Executable and default resource files
+"/epoc32/release/armv5/urel/hbserviceprovider.exe" - "!:\sys\bin\hbserviceprovider.exe"
+"/epoc32/data/z/private/10003a3f/import/apps/hbserviceprovider_reg.rsc" - "!:/private/10003a3f/import/apps/hbserviceprovider_reg.rsc"
+"/epoc32/data/z/resource/apps/hbserviceprovider.rsc" - "!:/resource/apps/hbserviceprovider.rsc"
+
+"/epoc32/release/armv5/urel/notreceiver.exe" - "!:\sys\bin\notreceiver.exe"
+"/epoc32/data/z/resource/apps/notreceiver.rsc" - "!:\resource\apps\notreceiver.rsc"
+"/epoc32/data/z/private/10003a3f/import/apps/notreceiver_reg.rsc" - "!:\private\10003a3f\import\apps\notreceiver_reg.rsc"
+
+"/epoc32/release/armv5/urel/serviceclient.exe" - "!:\sys\bin\serviceclient.exe"
+"/epoc32/data/z/resource/apps/serviceclient.rsc" - "!:\resource\apps\serviceclient.rsc"
+"/epoc32/data/z/private/10003a3f/import/apps/serviceclient_reg.rsc" - "!:\private\10003a3f\import\apps\serviceclient_reg.rsc"
+

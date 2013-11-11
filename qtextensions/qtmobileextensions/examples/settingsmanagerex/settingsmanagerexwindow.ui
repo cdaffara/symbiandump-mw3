@@ -1,0 +1,56 @@
+<ui version="4.0" >
+ <class>SettingsManagerExClass</class>
+ <widget class="QMainWindow" name="SettingsManagerExClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>277</width>
+    <height>329</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QVBoxLayout" name="verticalLayout" >
+    <item>
+     <widget class="QLabel" name="profileLabel" >
+      <property name="text" >
+       <string>Unknown profile</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="chargerLabel" >
+      <property name="text" >
+       <string>Charger state is unknown</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="testLabel" >
+      <property name="text" >
+       <string>No property items</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer" >
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0" >
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
